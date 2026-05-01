@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://akkreatif.my.id/sitemap.xml

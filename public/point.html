@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { margin: 0; background-color: #f0f0f0; }
+        .wrapper { position: relative; display: inline-block; }
+        svg { background-color: rgba(255, 0, 0, 0); }
+        #coords { position: fixed; top: 10px; right: 10px; background: rgba(0,0,0,0.8); color: white; padding: 10px; font-family: monospace; }
+        #canvas { position: absolute; top:0; left:0; width:100%; height:100%; pointer-events:none; }
+    </style>
+</head>
+<body>
+    <div class="wrapper" id="wrap">
+        <!-- SVG will be loaded here -->
+        <img src="images/akpulau.svg" style="width: 595px; border: 1px solid blue;" id="img">
+        <svg id="canvas" viewBox="0 0 595 842">
+            <rect id="testrect" x="100" y="100" width="50" height="50" fill="black" opacity="0.5"/>
+        </svg>
+    </div>
+    <div id="coords">X: 0, Y: 0</div>
+
+    <script>
+        const wrap = document.getElementById('wrap');
+        const coords = document.getElementById('coords');
+        const testrect = document.getElementById('testrect');
+        let startX, startY;
+        
+        wrap.addEventListener('mousedown', (e) => {
+            const rect = wrap.getBoundingClientRect();
+            startX = (e.clientX - rect.left);
+            startY = (e.clientY - rect.top);
+            testrect.setAttribute('x', startX);
+            testrect.setAttribute('y', startY);
+            testrect.setAttribute('width', 0);
+            testrect.setAttribute('height', 0);
+        });
+
+        wrap.addEventListener('mousemove', (e) => {
+            const rect = wrap.getBoundingClientRect();
+            const x = (e.clientX - rect.left);
+            const y = (e.clientY - rect.top);
+            coords.innerText = `X: ${x.toFixed(1)}, Y: ${y.toFixed(1)}`;
+            
+            if(e.buttons === 1) {
+                const width = x - startX;
+                const height = y - startY;
+                testrect.setAttribute('width', Math.abs(width));
+                testrect.setAttribute('height', Math.abs(height));
+                testrect.setAttribute('x', width < 0 ? x : startX);
+                testrect.setAttribute('y', height < 0 ? y : startY);
+                console.log(`x="${Math.min(startX, x)}" y="${Math.min(startY, y)}" width="${Math.abs(width)}" height="${Math.abs(height)}"`);
+            }
+        });
+    </script>
+</body>
+</html>

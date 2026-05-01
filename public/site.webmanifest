@@ -1,0 +1,22 @@
+{
+    "name": "AK Kreatif",
+    "short_name": "AK Kreatif",
+    "description": "Anak Kalimantan Kreatif — Jasa pembuatan website, desain grafis, social media, dan foto/video di Kalimantan",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#0a0a0a",
+    "theme_color": "#10b981",
+    "icons": [
+        {
+            "src": "/favicon.ico",
+            "sizes": "48x48",
+            "type": "image/x-icon"
+        },
+        {
+            "src": "/images/logo-color.webp",
+            "sizes": "192x192",
+            "type": "image/webp",
+            "purpose": "any maskable"
+        }
+    ]
+}

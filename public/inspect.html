@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { font-family: sans-serif; }
+    .container { display: flex; gap: 20px; }
+    .box { border: 1px solid #ccc; padding: 10px; }
+    img { max-width: 300px; }
+    .bg-white { background: white; }
+    .bg-black { background: black; }
+    .bg-red { background: red; }
+    .bg-pattern { background: repeating-linear-gradient(45deg, #ccc 25%, transparent 25%, transparent 75%, #ccc 75%, #ccc), repeating-linear-gradient(45deg, #ccc 25%, transparent 25%, transparent 75%, #ccc 75%, #ccc); background-position: 0 0, 10px 10px; background-size: 20px 20px; }
+  </style>
+</head>
+<body>
+  <h1>PNG Inspection</h1>
+  <div class="container">
+    <div class="box bg-white">
+      <h3>White BG</h3>
+      <img src="images/akpulau_raw.png">
+    </div>
+    <div class="box bg-black">
+      <h3 style="color: white">Black BG</h3>
+      <img src="images/akpulau_raw.png">
+    </div>
+    <div class="box bg-pattern">
+      <h3 style="color: black; background: white; padding: 5px;">Transparent BG Check</h3>
+      <img src="images/akpulau_raw.png">
+    </div>
+  </div>
+</body>
+</html>

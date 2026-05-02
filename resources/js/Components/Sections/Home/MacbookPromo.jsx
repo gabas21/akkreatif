@@ -3,10 +3,10 @@ import { MacbookScroll } from "@/Components/ui/macbook-scroll";
 import { motion, useScroll, useTransform, useMotionValueEvent } from "framer-motion";
 
 const projects = [
-  { title: 'E-Commerce Reimagined', category: 'Web Development', img: '/images/unsplash/1460925895917-afdab827c52f.jpg', tag: 'Featured' },
-  { title: 'Corporate Identity', category: 'Graphic Design', img: '/images/unsplash/1600109727447-da7ba2dc2b32.jpg', tag: 'Branding' },
-  { title: 'Tech Startup Landing', category: 'Web Design', img: '/images/unsplash/1547658719-da2b51169166.jpg', tag: 'UI/UX' },
-  { title: 'Annual Festival 2025', category: 'Event Organizer', img: '/images/unsplash/1540575467063-178a50c2df87.jpg', tag: 'Event' },
+  { title: 'E-Commerce Reimagined', category: 'Web Development', img: '/images/unsplash/1460925895917-afdab827c52f.webp', tag: 'Featured' },
+  { title: 'Corporate Identity', category: 'Graphic Design', img: '/images/unsplash/1600109727447-da7ba2dc2b32.webp', tag: 'Branding' },
+  { title: 'Tech Startup Landing', category: 'Web Design', img: '/images/unsplash/1547658719-da2b51169166.webp', tag: 'UI/UX' },
+  { title: 'Annual Festival 2025', category: 'Event Organizer', img: '/images/unsplash/1540575467063-178a50c2df87.webp', tag: 'Event' },
 ];
 
 export default function MacbookPromo() {
@@ -74,7 +74,7 @@ export default function MacbookPromo() {
               <div className="w-full h-full bg-zinc-900 grid grid-cols-2 gap-1 p-1.5 overflow-hidden">
                 {projects.map((p, i) => (
                   <div key={i} className="relative overflow-hidden rounded-md bg-zinc-800">
-                    <img src={p.img} alt={p.title} className="w-full h-full object-cover" draggable={false} />
+                    <img src={p.img} alt={p.title} width="300" height="200" loading="lazy" decoding="async" className="w-full h-full object-cover" draggable={false} />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-2">
                       <span className="text-emerald-400 text-[7px] uppercase tracking-widest font-medium">{p.category}</span>
                       <span className="text-white text-[10px] font-bold leading-tight">{p.title}</span>
@@ -120,6 +120,10 @@ export default function MacbookPromo() {
                     <img
                       src={project.img}
                       alt={project.title}
+                      width="600"
+                      height="400"
+                      loading="lazy"
+                      decoding="async"
                       className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                       draggable={false}
                     />

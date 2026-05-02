@@ -29,7 +29,7 @@ export default function SocialMediaSection() {
                             <div className="flex items-center gap-4">
                                 <div className="w-14 h-14 rounded-full bg-gradient-to-tr from-[#fd5949] via-[#d6249f] to-[#285AEB] p-0.5">
                                     <div className="w-full h-full bg-white rounded-full flex items-center justify-center overflow-hidden">
-                                        <img src="https://ui-avatars.com/api/?name=AK+Kreatif&background=10b981&color=fff&rounded=true" alt="AK Kreatif IG" loading="lazy" className="w-full h-full object-cover" />
+                                        <img src="https://ui-avatars.com/api/?name=AK+Kreatif&background=10b981&color=fff&rounded=true" alt="AK Kreatif IG" width="56" height="56" loading="lazy" decoding="async" className="w-full h-full object-cover" />
                                     </div>
                                 </div>
                                 <div>
@@ -48,15 +48,15 @@ export default function SocialMediaSection() {
                             <a href="https://instagram.com/ak_kreatif" target="_blank" rel="noreferrer" className="absolute inset-0 z-10" aria-label="Visit Instagram Profile"></a>
                             
                             {[
-                                "/images/unsplash/1542744173-8e7e53415bb0.jpg", // Agency team
-                                "/images/unsplash/1600880292203-757bb62b4baf.jpg", // Desk setup
-                                "/images/unsplash/1551288049-bebda4e38f71.jpg", // Code
-                                "/images/unsplash/1512758684632-a2eb69eb3c6b.jpg", // Design
-                                "/images/unsplash/social-media-icons.jpg", // Social Media
-                                "/images/unsplash/1511512578047-dfb367046420.jpg"  // Video/Event
+                                "/images/unsplash/1542744173-8e7e53415bb0.webp", // Agency team
+                                "/images/unsplash/1600880292203-757bb62b4baf.webp", // Desk setup
+                                "/images/unsplash/1551288049-bebda4e38f71.webp", // Code
+                                "/images/unsplash/1512758684632-a2eb69eb3c6b.webp", // Design
+                                "/images/unsplash/social-media-icons.webp", // Social Media
+                                "/images/unsplash/1511512578047-dfb367046420.webp"  // Video/Event
                             ].map((img, i) => (
                                 <div key={i} className="aspect-square bg-gray-100 rounded-lg overflow-hidden relative group/img">
-                                    <img src={img} alt={`Post preview ${i+1}`} loading="lazy" className="w-full h-full object-cover group-hover/img:scale-110 transition-transform duration-500" />
+                                    <img src={img} alt={`Post preview ${i+1}`} width="200" height="200" loading="lazy" decoding="async" className="w-full h-full object-cover group-hover/img:scale-110 transition-transform duration-500" />
                                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover/img:opacity-100 transition-opacity flex items-center justify-center">
                                         <IconBrandInstagram className="text-white w-6 h-6 transform translate-y-2 group-hover/img:translate-y-0 transition-transform duration-300" />
                                     </div>

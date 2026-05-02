@@ -51,7 +51,7 @@ export default function Navbar() {
             >
                 {/* Brand Logo */}
                 <Link href="/" className="group flex flex-shrink-0 items-end gap-1.5 focus:outline-none">
-                    <img src="/images/brand/logo-ak.png" alt="AK" className="h-10 w-auto object-contain drop-shadow-[0_2px_8px_rgba(16,185,129,0.3)] transition-all duration-300 group-hover:scale-105 group-hover:-translate-y-0.5 group-hover:drop-shadow-[0_4px_12px_rgba(16,185,129,0.5)]" />
+                    <img src="/images/brand/logo-ak.webp" alt="AK" width="120" height="40" fetchPriority="high" className="h-10 w-auto object-contain drop-shadow-[0_2px_8px_rgba(16,185,129,0.3)] transition-all duration-300 group-hover:scale-105 group-hover:-translate-y-0.5 group-hover:drop-shadow-[0_4px_12px_rgba(16,185,129,0.5)]" />
                     <span className="font-display font-black text-[21px] leading-none tracking-tight text-brand-green transition-colors group-hover:text-black mb-0">
                         Kreatif
                     </span>

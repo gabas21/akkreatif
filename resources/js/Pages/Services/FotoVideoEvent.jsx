@@ -123,7 +123,7 @@ export default function FotoVideoEvent() {
                             <CameraMockup className="shadow-[0_40px_80px_rgba(0,0,0,0.9)] group-hover:shadow-[0_40px_100px_rgba(245,158,11,0.4)] transition-all duration-700">
                                 {/* The Photo/Video Content inside Camera Screen */}
                                 <img 
-                                    src="/images/unsplash/1492691527719-9d1e07e534b4.jpg" 
+                                    src="/images/unsplash/1492691527719-9d1e07e534b4.webp" 
                                     alt="Dokumentasi Event Festival Mahakam" 
                                     className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
                                 />
@@ -207,17 +207,17 @@ export default function FotoVideoEvent() {
                 bg="bg-[#fafafa]"
                 previews={[
                     {
-                        image: '/images/unsplash/1492691527719-9d1e07e534b4.jpg',
+                        image: '/images/unsplash/1492691527719-9d1e07e534b4.webp',
                         label: 'Event Aftermovie',
                         title: 'Festival Mahakam 2023',
                     },
                     {
-                        image: '/images/unsplash/1505236858219-8359eb29e329.jpg',
+                        image: '/images/unsplash/1505236858219-8359eb29e329.webp',
                         label: 'Product Photography',
                         title: 'Produk Nusantara — UMKM Lokal',
                     },
                     {
-                        image: '/images/unsplash/1554048612-b6a482bc67e5.jpg',
+                        image: '/images/unsplash/1554048612-b6a482bc67e5.webp',
                         label: 'Drone Footage',
                         title: 'Aerial View Kalimantan',
                     },
@@ -232,7 +232,7 @@ export default function FotoVideoEvent() {
             <section className="relative section-padding overflow-hidden">
                 <div
                     className="absolute inset-0 bg-cover bg-center"
-                    style={{ backgroundImage: `url('/images/unsplash/1492691527719-9d1e07e534b4.jpg')` }}
+                    style={{ backgroundImage: `url('/images/unsplash/1492691527719-9d1e07e534b4.webp')` }}
                 />
                 <div className="absolute inset-0 bg-black/80" />
                 <div className="container-custom text-center relative z-10">

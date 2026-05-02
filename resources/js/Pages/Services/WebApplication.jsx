@@ -963,12 +963,12 @@ export default function WebApplication() {
                         title: 'Bappelitbangda Mahakam Ulu',
                     },
                     {
-                        image: '/images/unsplash/1551288049-bebda4e38f71.jpg',
+                        image: '/images/unsplash/1551288049-bebda4e38f71.webp',
                         label: 'Web Application',
                         title: 'Dashboard Analitik UMKM',
                     },
                     {
-                        image: '/images/unsplash/1460925895917-afdab827c52f.jpg',
+                        image: '/images/unsplash/1460925895917-afdab827c52f.webp',
                         label: 'Company Profile',
                         title: 'Website Profil Perusahaan',
                     },

@@ -76,12 +76,12 @@ const GOV_PROJECTS = [
         client: 'Bappelitbangda Kab. Mahakam Ulu',
         description: 'Portal pemerintah daerah yang merajut perencanaan pembangunan inovatif dan berkelanjutan. Menyediakan akses dokumen (RENSTRA, RENJA, DPA), Regulasi, PPID, serta Layanan Pengaduan & Survey terpadu.',
         screenshots: [
-            'https://api.microlink.io/?url=https%3A%2F%2Fbappelitbangdamahulu.akkreatif.my.id%2F&screenshot=true&meta=false&embed=screenshot.url&colorScheme=light&viewport.width=1280&viewport.height=800',
-            'https://api.microlink.io/?url=https%3A%2F%2Fbappelitbangdamahulu.akkreatif.my.id%2Fberita&screenshot=true&meta=false&embed=screenshot.url&colorScheme=light&viewport.width=1280&viewport.height=800',
-            'https://api.microlink.io/?url=https%3A%2F%2Fbappelitbangdamahulu.akkreatif.my.id%2Flayanan%2Fpengaduan&screenshot=true&meta=false&embed=screenshot.url&colorScheme=light&viewport.width=1280&viewport.height=800',
-            'https://api.microlink.io/?url=https%3A%2F%2Fbappelitbangdamahulu.akkreatif.my.id%2Fdokumen%2Frenstra&screenshot=true&meta=false&embed=screenshot.url&colorScheme=light&viewport.width=1280&viewport.height=800',
-            'https://api.microlink.io/?url=https%3A%2F%2Fbappelitbangdamahulu.akkreatif.my.id%2Fprofil%2Fvisi-misi&screenshot=true&meta=false&embed=screenshot.url&colorScheme=light&viewport.width=1280&viewport.height=800',
-            'https://api.microlink.io/?url=https%3A%2F%2Fbappelitbangdamahulu.akkreatif.my.id%2Fppid%2Fpermohonan&screenshot=true&meta=false&embed=screenshot.url&colorScheme=light&viewport.width=1280&viewport.height=800',
+            '/images/portfolio/screenshots/bappelitbangda-mahulu/home.webp',
+            '/images/portfolio/screenshots/bappelitbangda-mahulu/berita.webp',
+            '/images/portfolio/screenshots/bappelitbangda-mahulu/layanan-pengaduan.webp',
+            '/images/portfolio/screenshots/bappelitbangda-mahulu/dokumen-renstra.webp',
+            '/images/portfolio/screenshots/bappelitbangda-mahulu/profil-visi-misi.webp',
+            '/images/portfolio/screenshots/bappelitbangda-mahulu/ppid-permohonan.webp',
         ],
         url: 'https://bappelitbangdamahulu.akkreatif.my.id/',
         tags: ['Laravel', 'MySQL', 'Tailwind CSS'],
@@ -95,12 +95,12 @@ const GOV_PROJECTS = [
         client: 'PT. Mahakam Gerbang Raja Migas',
         description: 'Website resmi BUMD Kutai Kartanegara pengelola Participating Interest (PI) 10% Blok Mahakam. Menampilkan profil perusahaan, layanan energi berkelanjutan, integrasi OKE GAS, dan transparansi PPID.',
         screenshots: [
-            'https://api.microlink.io/?url=https%3A%2F%2Fmgrmkukar.akkreatif.my.id%2F&screenshot=true&meta=false&embed=screenshot.url&colorScheme=light&viewport.width=1280&viewport.height=800',
-            'https://api.microlink.io/?url=https%3A%2F%2Fmgrmkukar.akkreatif.my.id%2Ftentang%2Fvisi-misi&screenshot=true&meta=false&embed=screenshot.url&colorScheme=light&viewport.width=1280&viewport.height=800',
-            'https://api.microlink.io/?url=https%3A%2F%2Fmgrmkukar.akkreatif.my.id%2Ftentang%2Fsejarah&screenshot=true&meta=false&embed=screenshot.url&colorScheme=light&viewport.width=1280&viewport.height=800',
-            'https://api.microlink.io/?url=https%3A%2F%2Fmgrmkukar.akkreatif.my.id%2Ftentang%2Fstruktur-organisasi&screenshot=true&meta=false&embed=screenshot.url&colorScheme=light&viewport.width=1280&viewport.height=800',
-            'https://api.microlink.io/?url=https%3A%2F%2Fmgrmkukar.akkreatif.my.id%2Flayanan&screenshot=true&meta=false&embed=screenshot.url&colorScheme=light&viewport.width=1280&viewport.height=800',
-            'https://api.microlink.io/?url=https%3A%2F%2Fmgrmkukar.akkreatif.my.id%2Fokegas&screenshot=true&meta=false&embed=screenshot.url&colorScheme=light&viewport.width=1280&viewport.height=800',
+            '/images/portfolio/screenshots/mgrm-kukar/home.webp',
+            '/images/portfolio/screenshots/mgrm-kukar/tentang-visi-misi.webp',
+            '/images/portfolio/screenshots/mgrm-kukar/tentang-sejarah.webp',
+            '/images/portfolio/screenshots/mgrm-kukar/tentang-struktur-organisasi.webp',
+            '/images/portfolio/screenshots/mgrm-kukar/layanan.webp',
+            '/images/portfolio/screenshots/mgrm-kukar/okegas.webp',
         ],
         url: 'https://mgrmkukar.akkreatif.my.id/',
         tags: ['React', 'Laravel', 'Tailwind CSS'],
@@ -114,12 +114,12 @@ const GOV_PROJECTS = [
         client: 'Inspektorat Kab. Mahakam Ulu',
         description: 'Portal pengawasan internal daerah untuk mewujudkan tata kelola yang bersih dan akuntabel. Dilengkapi dengan layanan WBS (Whistleblowing System), pelaporan LHKPN, serta transparansi SAKIP/SPIP.',
         screenshots: [
-            'https://api.microlink.io/?url=https%3A%2F%2Finspektoratmahulu.akkreatif.my.id%2F&screenshot=true&meta=false&embed=screenshot.url&colorScheme=light&viewport.width=1280&viewport.height=800',
-            'https://api.microlink.io/?url=https%3A%2F%2Finspektoratmahulu.akkreatif.my.id%2Fprofil%2Fvisi-misi&screenshot=true&meta=false&embed=screenshot.url&colorScheme=light&viewport.width=1280&viewport.height=800',
-            'https://api.microlink.io/?url=https%3A%2F%2Finspektoratmahulu.akkreatif.my.id%2Fberita&screenshot=true&meta=false&embed=screenshot.url&colorScheme=light&viewport.width=1280&viewport.height=800',
-            'https://api.microlink.io/?url=https%3A%2F%2Finspektoratmahulu.akkreatif.my.id%2Flayanan%2Fpengaduan&screenshot=true&meta=false&embed=screenshot.url&colorScheme=light&viewport.width=1280&viewport.height=800',
-            'https://api.microlink.io/?url=https%3A%2F%2Finspektoratmahulu.akkreatif.my.id%2Fdokumen%2Fsakip&screenshot=true&meta=false&embed=screenshot.url&colorScheme=light&viewport.width=1280&viewport.height=800',
-            'https://api.microlink.io/?url=https%3A%2F%2Finspektoratmahulu.akkreatif.my.id%2Fppid%2Ftentang&screenshot=true&meta=false&embed=screenshot.url&colorScheme=light&viewport.width=1280&viewport.height=800',
+            '/images/portfolio/screenshots/inspektorat-mahulu/home.webp',
+            '/images/portfolio/screenshots/inspektorat-mahulu/profil-visi-misi.webp',
+            '/images/portfolio/screenshots/inspektorat-mahulu/berita.webp',
+            '/images/portfolio/screenshots/inspektorat-mahulu/layanan-pengaduan.webp',
+            '/images/portfolio/screenshots/inspektorat-mahulu/dokumen-sakip.webp',
+            '/images/portfolio/screenshots/inspektorat-mahulu/ppid-tentang.webp',
         ],
         url: 'https://inspektoratmahulu.akkreatif.my.id/',
         tags: ['Laravel', 'MySQL', 'Tailwind CSS'],
@@ -132,7 +132,7 @@ const GOV_PROJECTS = [
         name: 'Inspektorat Kabupaten Mahakam Ulu',
         client: 'Inspektorat Kab. Mahakam Ulu',
         description: 'Website profile Versi Pro untuk mengoptimalkan pengelolaan informasi dan dokumentasi guna mendukung Keterbukaan Informasi Publik (KIP).',
-        screenshots: ['/images/portfolio/pemda-kaltim/inspektorat-mahulu-1.png'],
+        screenshots: ['/images/portfolio/pemda-kaltim/inspektorat-mahulu/1.webp'],
         url: '', tags: ['Web Profile', 'KIP', 'PPID'], year: '2023', duration: '30 hari kerja',
         features: ['Halaman Beranda & Profil', 'Slider Informasi & Berita', 'Halaman Agenda & PPID', 'Fitur Penunjang Data'],
         highlight: [{ num: 'A+', label: 'Informatif' }, { num: '100%', label: 'Transparan' }],
@@ -142,7 +142,7 @@ const GOV_PROJECTS = [
         name: 'Biro PBJ Provinsi Kalimantan Timur',
         client: 'Biro PBJ Provinsi Kaltim',
         description: 'Website profile Instansi Pemerintah yang informatif, responsif, dan terintegrasi dengan kebutuhan keterbukaan publik.',
-        screenshots: ['/images/portfolio/pemda-kaltim/biro-pbj-kaltim-1.png'],
+        screenshots: ['/images/portfolio/pemda-kaltim/biro-pbj-kaltim/1.webp'],
         url: '', tags: ['Web Profile', 'Pemerintah Provinsi'], year: '2023', duration: '30 hari kerja',
         features: ['Manajemen Berita & Agenda', 'Publikasi Dokumen', 'PWA (Progressive Web App)', 'Admin Dashboard'],
         highlight: [{ num: '100%', label: 'Responsif' }, { num: 'PWA', label: 'Support' }],
@@ -152,7 +152,7 @@ const GOV_PROJECTS = [
         name: 'Dinas Perdagangan dan Perindustrian Kab. Kutim',
         client: 'DISPERINDAG Kabupaten Kutai Timur',
         description: 'Pembangunan website profile Instansi/Institusi untuk meningkatkan peran Pejabat Pengelola Informasi dan Dokumentasi (PPID).',
-        screenshots: ['/images/portfolio/pemda-kaltim/webprofile-disperindag-kutim-1.png', '/images/portfolio/pemda-kaltim/ekegiatan-disperindag-kutim-1.png', '/images/portfolio/pemda-kaltim/eskm-disperindag-kutim-1.png', '/images/portfolio/pemda-kaltim/eperjadin-disperindag-kutim-1.png', '/images/portfolio/pemda-kaltim/siperindustrian-kutim-1.png'],
+        screenshots: ['/images/portfolio/pemda-kaltim/webprofile-disperindag-kutim/1.webp', '/images/portfolio/pemda-kaltim/ekegiatan-disperindag-kutim/1.webp', '/images/portfolio/pemda-kaltim/eskm-disperindag-kutim/1.webp', '/images/portfolio/pemda-kaltim/eperjadin-disperindag-kutim/1.webp', '/images/portfolio/pemda-kaltim/siperindustrian-kutim/1.webp'],
         url: '', tags: ['Web Profile', 'PPID', 'Layanan Publik'], year: '2023', duration: '30 hari kerja',
         features: ['Layanan Informasi Publik', 'Integrasi PPID', 'Kustomisasi Logo & Warna', 'Manajemen Dokumen'],
         highlight: [{ num: 'PPID', label: 'Terintegrasi' }, { num: 'A+', label: 'Aksesibilitas' }],
@@ -162,7 +162,7 @@ const GOV_PROJECTS = [
         name: 'Sekretariat Daerah Provinsi Kalimantan Timur',
         client: 'Setda Provinsi Kaltim',
         description: 'Website resmi pemerintahan tingkat daerah yang mengedepankan asas kemudahan bagi para penggunanya (user friendly) dan memiliki desain tampilan menarik.',
-        screenshots: ['/images/portfolio/pemda-kaltim/bag-organisasi-mahulu-1.png', '/images/portfolio/pemda-kaltim/bag-organisasi-mahulu-2.png'],
+        screenshots: ['/images/portfolio/pemda-kaltim/bag-organisasi-mahulu/1.webp', '/images/portfolio/pemda-kaltim/bag-organisasi-mahulu/2.webp'],
         url: '', tags: ['Web Profile', 'Pemerintah Provinsi'], year: '2024', duration: '30 hari kerja',
         features: ['User Friendly Design', 'Kategori Fitur Utama', 'Halaman Penunjang', 'Sistem Keterbukaan Informasi'],
         highlight: [{ num: '1', label: 'Portal Utama' }, { num: '100%', label: 'User Friendly' }],
@@ -172,7 +172,7 @@ const GOV_PROJECTS = [
         name: 'Aplikasi e-SKM (Survei Kepuasan Masyarakat)',
         client: 'Instansi Pemerintah',
         description: 'Sistem aplikasi untuk memfasilitasi pelaksanaan Survei Kepuasan Masyarakat secara elektronik dan real-time.',
-        screenshots: ['/images/portfolio/pemda-kaltim/eskm-1.png', '/images/portfolio/pemda-kaltim/eskm-2.png'],
+        screenshots: ['/images/portfolio/pemda-kaltim/eskm/1.webp', '/images/portfolio/pemda-kaltim/eskm/2.webp'],
         url: '', tags: ['Web Application', 'Pelayanan Publik', 'Survei'], year: '2023', duration: 'Custom',
         features: ['Formulir Survei Elektronik', 'Rekapitulasi Otomatis', 'Dashboard Analitik', 'Export Laporan'],
         highlight: [{ num: 'Real-time', label: 'Data' }, { num: '100%', label: 'Akurat' }],
@@ -182,7 +182,7 @@ const GOV_PROJECTS = [
         name: 'Aplikasi e-Kegiatan',
         client: 'Instansi Daerah',
         description: 'Aplikasi manajemen kegiatan untuk mengontrol, merencanakan, dan mendokumentasikan kegiatan instansi secara terpusat.',
-        screenshots: ['/images/portfolio/pemda-kaltim/ekegiatan-disperindag-kutim-1.png'], url: '', tags: ['Web Application', 'Manajemen'], year: '2024', duration: 'Custom',
+        screenshots: ['/images/portfolio/pemda-kaltim/ekegiatan-disperindag-kutim/1.webp'], url: '', tags: ['Web Application', 'Manajemen'], year: '2024', duration: 'Custom',
         features: ['Jadwal & Agenda', 'Dokumentasi', 'Tracking Kegiatan', 'Laporan Kinerja'],
         highlight: [{ num: 'Cepat', label: 'Tracking' }, { num: 'Aman', label: 'Sistem' }],
     },
@@ -191,7 +191,7 @@ const GOV_PROJECTS = [
         name: 'Aplikasi e-Perjadin',
         client: 'Pemerintah Daerah',
         description: 'Sistem informasi pengelolaan perjalanan dinas elektronik guna meningkatkan efisiensi dan transparansi anggaran.',
-        screenshots: ['/images/portfolio/pemda-kaltim/eperjadin-disperindag-kutim-1.png'], url: '', tags: ['Web Application', 'Administrasi'], year: '2023', duration: 'Custom',
+        screenshots: ['/images/portfolio/pemda-kaltim/eperjadin-disperindag-kutim/1.webp'], url: '', tags: ['Web Application', 'Administrasi'], year: '2023', duration: 'Custom',
         features: ['Pengajuan Perjadin', 'Persetujuan Berjenjang', 'Integrasi Anggaran', 'Cetak SPPD otomatis'],
         highlight: [{ num: 'Paperless', label: 'Efisiensi' }, { num: 'Transparan', label: 'Anggaran' }],
     },
@@ -200,7 +200,7 @@ const GOV_PROJECTS = [
         name: 'Siperindustrian',
         client: 'Dinas Perindustrian',
         description: 'Sistem Informasi Perindustrian untuk pendataan, monitoring, dan evaluasi sektor industri di daerah.',
-        screenshots: ['/images/portfolio/pemda-kaltim/siperindustrian-kutim-1.png'], url: '', tags: ['Web Application', 'Sistem Informasi'], year: '2023', duration: 'Custom',
+        screenshots: ['/images/portfolio/pemda-kaltim/siperindustrian-kutim/1.webp'], url: '', tags: ['Web Application', 'Sistem Informasi'], year: '2023', duration: 'Custom',
         features: ['Database Industri', 'Peta Persebaran Industri', 'Monitoring & Evaluasi', 'Dashboard Statistik'],
         highlight: [{ num: 'Big Data', label: 'Industri' }, { num: 'GIS', label: 'Mapping' }],
     },
@@ -209,7 +209,7 @@ const GOV_PROJECTS = [
         name: 'SIMEVLAP (Sistem Informasi Monitoring Evaluasi Laporan)',
         client: 'Bappelitbangda Kab. Mahakam Ulu',
         description: 'Sistem monitoring dan evaluasi laporan kinerja pembangunan daerah secara real-time dan terintegrasi.',
-        screenshots: ['/images/portfolio/pemda-kaltim/simevlap-mahulu-1.png'],
+        screenshots: ['/images/portfolio/pemda-kaltim/simevlap-mahulu/1.webp'],
         url: '', tags: ['Web Application', 'Monitoring', 'Evaluasi'], year: '2023', duration: 'Custom',
         features: ['Monitoring Laporan Real-time', 'Evaluasi Kinerja', 'Dashboard Analitik', 'Export Laporan'],
         highlight: [{ num: 'Real-time', label: 'Monitoring' }, { num: '100%', label: 'Terintegrasi' }],
@@ -219,7 +219,7 @@ const GOV_PROJECTS = [
         name: 'SIEDESA (Sistem Informasi Elektronik Desa)',
         client: 'DPMD Kabupaten Kutai Kartanegara',
         description: 'Sistem informasi elektronik desa untuk pengelolaan data dan administrasi pemerintahan desa secara digital.',
-        screenshots: ['/images/portfolio/pemda-kaltim/siedesa-mahulu-1.png'],
+        screenshots: ['/images/portfolio/pemda-kaltim/siedesa-mahulu/1.webp'],
         url: '', tags: ['Web Application', 'Desa Digital', 'Laravel'], year: '2023', duration: 'Custom',
         features: ['Administrasi Desa Digital', 'Pengelolaan Data Penduduk', 'Layanan Surat Menyurat', 'Dashboard Desa'],
         highlight: [{ num: 'Digital', label: 'Desa' }, { num: '100%', label: 'Paperless' }],
@@ -229,7 +229,7 @@ const GOV_PROJECTS = [
         name: 'DPMD Kabupaten Kutai Kartanegara',
         client: 'DPMD Kab. Kutai Kartanegara',
         description: 'Portal resmi Dinas Pemberdayaan Masyarakat dan Desa untuk transparansi dan layanan publik.',
-        screenshots: ['/images/portfolio/pemda-kaltim/dpmd-kukar-1.png'],
+        screenshots: ['/images/portfolio/pemda-kaltim/dpmd-kukar/1.webp'],
         url: '', tags: ['Web Profile', 'Pemerintah Kabupaten'], year: '2023', duration: '30 hari kerja',
         features: ['Portal Informasi Publik', 'Layanan Desa', 'Publikasi Berita', 'PPID'],
         highlight: [{ num: 'PPID', label: 'Terbuka' }, { num: '100%', label: 'Responsif' }],
@@ -239,7 +239,7 @@ const GOV_PROJECTS = [
         name: 'UPTD PPRD Samarinda',
         client: 'UPTD PPRD Kota Samarinda',
         description: 'Website resmi Unit Pelaksana Teknis Daerah Pengelolaan Pendapatan Retribusi Daerah Kota Samarinda.',
-        screenshots: ['/images/portfolio/pemda-kaltim/uptd-pprd-samarinda-1.png', '/images/portfolio/pemda-kaltim/siap-uptd-pprd-1.png', '/images/portfolio/pemda-kaltim/siap-uptd-pprd-mobile-1.png'],
+        screenshots: ['/images/portfolio/pemda-kaltim/uptd-pprd-samarinda/1.webp', '/images/portfolio/pemda-kaltim/siap-uptd-pprd/1.webp', '/images/portfolio/pemda-kaltim/siap-uptd-pprd/mobile-1.webp'],
         url: '', tags: ['Web Profile', 'Pelayanan Publik'], year: '2023', duration: '30 hari kerja',
         features: ['SIAP (Sistem Informasi Antrian)', 'Pelayanan Retribusi', 'Informasi Publik', 'Dashboard Admin'],
         highlight: [{ num: 'SIAP', label: 'Antrian' }, { num: '100%', label: 'Digital' }],
@@ -249,7 +249,7 @@ const GOV_PROJECTS = [
         name: 'SIMPELSIBANG Bappelitbangda',
         client: 'Bappelitbangda Kab. Mahakam Ulu',
         description: 'Sistem Informasi Manajemen Penelitian, Inovasi dan Kerjasama Pembangunan Daerah.',
-        screenshots: ['/images/portfolio/pemda-kaltim/simpelsibang-bappelitbangda-1.png'],
+        screenshots: ['/images/portfolio/pemda-kaltim/simpelsibang-bappelitbangda/1.webp'],
         url: '', tags: ['Web Application', 'Riset', 'Inovasi'], year: '2023', duration: 'Custom',
         features: ['Manajemen Penelitian', 'Database Inovasi', 'Kerjasama Pembangunan', 'Pelaporan'],
         highlight: [{ num: 'Riset', label: 'Digital' }, { num: '100%', label: 'Terintegrasi' }],
@@ -259,7 +259,7 @@ const GOV_PROJECTS = [
         name: 'TP PKK Kutai Kartanegara',
         client: 'TP PKK Kab. Kutai Kartanegara',
         description: 'Website resmi Tim Penggerak PKK Kabupaten Kutai Kartanegara untuk pemberdayaan masyarakat.',
-        screenshots: ['/images/portfolio/pemda-kaltim/tp-pkk-kukar-1.png'],
+        screenshots: ['/images/portfolio/pemda-kaltim/tp-pkk-kukar/1.webp'],
         url: '', tags: ['Web Profile', 'Pemberdayaan'], year: '2023', duration: '30 hari kerja',
         features: ['Profil Organisasi', 'Program PKK', 'Berita & Agenda', 'Galeri Kegiatan'],
         highlight: [{ num: 'PKK', label: 'Digital' }, { num: '100%', label: 'Responsif' }],
@@ -269,7 +269,7 @@ const GOV_PROJECTS = [
         name: 'E-CSR (Electronic Corporate Social Responsibility)',
         client: 'DPMD Kab. Kutai Kartanegara',
         description: 'Sistem pengelolaan Corporate Social Responsibility secara elektronik untuk transparansi dan akuntabilitas.',
-        screenshots: ['/images/portfolio/pemda-kaltim/ecsr-dpmd-kukar-1.png'],
+        screenshots: ['/images/portfolio/pemda-kaltim/ecsr-dpmd-kukar/1.webp'],
         url: '', tags: ['Web Application', 'CSR', 'Transparansi'], year: '2023', duration: 'Custom',
         features: ['Pengajuan CSR Online', 'Monitoring Realisasi', 'Dashboard Pelaporan', 'Transparansi Publik'],
         highlight: [{ num: 'E-CSR', label: 'Transparan' }, { num: '100%', label: 'Akuntabel' }],
@@ -279,7 +279,7 @@ const GOV_PROJECTS = [
         name: 'DP3A Provinsi Kalimantan Timur',
         client: 'DP3A Provinsi Kaltim',
         description: 'Website Dinas Pemberdayaan Perempuan dan Perlindungan Anak Provinsi Kalimantan Timur.',
-        screenshots: ['/images/portfolio/pemda-kaltim/dp3a-kaltim-1.png', '/images/portfolio/pemda-kaltim/dp3a-kaltim-2.png'],
+        screenshots: ['/images/portfolio/pemda-kaltim/dp3a-kaltim/1.webp', '/images/portfolio/pemda-kaltim/dp3a-kaltim/2.webp'],
         url: '', tags: ['Web Profile', 'Pemerintah Provinsi'], year: '2023', duration: '30 hari kerja',
         features: ['Layanan Pengaduan', 'Program Pemberdayaan', 'Berita & Informasi', 'PPID'],
         highlight: [{ num: 'DP3A', label: 'Kaltim' }, { num: '100%', label: 'Responsif' }],
@@ -289,7 +289,7 @@ const GOV_PROJECTS = [
         name: 'WalkingStory.id',
         client: 'WalkingStory',
         description: 'Portal Elektronik Survey dan layanan informasi digital berbasis web.',
-        screenshots: ['/images/portfolio/pemda-kaltim/walkingstory-1.png'],
+        screenshots: ['/images/portfolio/pemda-kaltim/walkingstory/1.webp'],
         url: '', tags: ['Web Application', 'Survey', 'Portal'], year: '2023', duration: 'Custom',
         features: ['Survey Elektronik', 'Portal Informasi', 'Dashboard Analitik', 'User Management'],
         highlight: [{ num: 'Survey', label: 'Digital' }, { num: '100%', label: 'Online' }],
@@ -299,7 +299,7 @@ const GOV_PROJECTS = [
         name: 'UKPBJ Kalimantan Utara',
         client: 'UKPBJ Provinsi Kaltara',
         description: 'Website resmi Unit Kerja Pengadaan Barang/Jasa Pemerintah Provinsi Kalimantan Utara.',
-        screenshots: ['/images/portfolio/pemda-kaltim/ukpbj-kaltara-1.png'],
+        screenshots: ['/images/portfolio/pemda-kaltim/ukpbj-kaltara/1.webp'],
         url: '', tags: ['Web Profile', 'Pengadaan', 'Pemerintah'], year: '2023', duration: '30 hari kerja',
         features: ['Informasi Pengadaan', 'Transparansi Lelang', 'Berita & Agenda', 'PPID'],
         highlight: [{ num: 'PBJ', label: 'Transparan' }, { num: '100%', label: 'Akuntabel' }],
@@ -309,7 +309,7 @@ const GOV_PROJECTS = [
         name: 'Dispora Kutai Timur',
         client: 'Dinas Pemuda & Olahraga Kutim',
         description: 'Website profile Dinas Kepemudaan dan Olahraga Kabupaten Kutai Timur.',
-        screenshots: ['/images/portfolio/pemda-kaltim/webprofile-dispora-kutim-1.png'],
+        screenshots: ['/images/portfolio/pemda-kaltim/webprofile-dispora-kutim/1.webp'],
         url: '', tags: ['Web Profile', 'Pemerintah Kabupaten'], year: '2023', duration: '30 hari kerja',
         features: ['Profil Dinas', 'Program Pemuda', 'Event Olahraga', 'Galeri Kegiatan'],
         highlight: [{ num: 'Pemuda', label: 'Digital' }, { num: '100%', label: 'Responsif' }],
@@ -319,7 +319,7 @@ const GOV_PROJECTS = [
         name: 'SIPROPENDA Bapenda Kaltim',
         client: 'Bapenda Provinsi Kaltim',
         description: 'Sistem Informasi Properti Pendapatan Daerah untuk pengelolaan data pajak dan retribusi.',
-        screenshots: ['/images/portfolio/pemda-kaltim/sipropenda-bapenda-kaltim-1.png', '/images/portfolio/pemda-kaltim/sipropenda-bapenda-kaltim-2.png', '/images/portfolio/pemda-kaltim/sipropenda-bapenda-mobile-1.png'],
+        screenshots: ['/images/portfolio/pemda-kaltim/sipropenda-bapenda-kaltim/1.webp', '/images/portfolio/pemda-kaltim/sipropenda-bapenda-kaltim/2.webp', '/images/portfolio/pemda-kaltim/sipropenda-bapenda/mobile-1.webp'],
         url: '', tags: ['Web Application', 'Pajak', 'Pendapatan'], year: '2023', duration: 'Custom',
         features: ['Data Pajak & Retribusi', 'Dashboard Pendapatan', 'Laporan Real-time', 'Mobile Friendly'],
         highlight: [{ num: 'PAD', label: 'Optimasi' }, { num: 'Real-time', label: 'Data' }],
@@ -479,7 +479,7 @@ const GOV_PROJECTS = [
         name: 'Emonev Kabupaten Malinau',
         client: 'Pemkab Malinau',
         description: 'Sistem Elektronik Monitoring dan Evaluasi pembangunan Kabupaten Malinau.',
-        screenshots: ['/images/portfolio/pemda-kaltim/emonev-malinau-1.png'],
+        screenshots: ['/images/portfolio/pemda-kaltim/emonev-malinau/1.webp'],
         url: '', tags: ['Web Application', 'Monitoring', 'Evaluasi'], year: '2023', duration: 'Custom',
         features: ['Monitoring Pembangunan', 'Evaluasi Kinerja', 'Dashboard Real-time', 'Pelaporan'],
         highlight: [{ num: 'Emonev', label: 'Digital' }, { num: 'Real-time', label: 'Data' }],
@@ -560,13 +560,93 @@ const DESIGN_GRAFIS_ITEMS = [
 ];
 
 const MEDIA_ITEMS = [
-    { title: 'PREWED', label: 'Photography', image: '/images/unsplash/1511285560929-80b456fea0bc.jpg' },
-    { title: 'WEDDING', label: 'Photography & Video', image: '/images/unsplash/1585386959984-a4155224a1ad.jpg' },
-    { title: 'BOOTCAMP', label: 'Event Documentation', image: '/images/unsplash/1492691527719-9d1e07e534b4.jpg' },
-    { title: 'PELATIHAN', label: 'Event Coverage', image: '/images/unsplash/1540575467063-178a50c2df87.jpg' },
-    { title: 'Video Profil', label: 'Video Production', image: '/images/unsplash/1554048612-b6a482bc67e5.jpg' },
-    { title: 'Video AKPER', label: 'Corporate Video', image: '/images/unsplash/1505236858219-8359eb29e329.jpg' },
-    { title: 'EVENT', label: 'Event Aftermovie', image: '/images/unsplash/1558618666-fcd25c85cd64.jpg' },
+    {
+        title: 'PREWED',
+        label: 'Pre-Wedding Photography',
+        image: '/images/unsplash/1511285560929-80b456fea0bc.webp',
+        description: 'Sesi foto pra-nikah yang romantis & sinematik, mengabadikan momen terindah sebelum hari pernikahan.',
+        photos: [
+            { src: '/images/unsplash/1511285560929-80b456fea0bc.webp', caption: 'Golden Hour — Lokasi Outdoor' },
+            { src: '/images/unsplash/1501339847302-ac426a4a7cbb.webp', caption: 'Intimate Moment — Studio Session' },
+            { src: '/images/unsplash/1495474472287-4d71bcdd2085.webp', caption: 'Cinematic Frame — Natural Light' },
+            { src: '/images/unsplash/1509042239860-f550ce710b93.webp', caption: 'Bokeh Portrait — Evening Light' },
+            { src: '/images/unsplash/1547658719-da2b51169166.webp', caption: 'Candid Moment — Outdoor' },
+            { src: '/images/unsplash/1555396273-367ea4eb4db5.webp', caption: 'Fine Art — Dramatic Light' },
+        ],
+    },
+    {
+        title: 'WEDDING',
+        label: 'Wedding Photography & Video',
+        image: '/images/unsplash/1585386959984-a4155224a1ad.webp',
+        description: 'Dokumentasi pernikahan profesional — dari akad hingga resepsi, setiap momen berharga terabadikan.',
+        photos: [
+            { src: '/images/unsplash/1585386959984-a4155224a1ad.webp', caption: 'Bridal Elegance — Akad Nikah' },
+            { src: '/images/unsplash/1511285560929-80b456fea0bc.webp', caption: 'Reception — Grand Ballroom' },
+            { src: '/images/unsplash/1562577309-4932fdd64cd1.webp', caption: 'First Dance — Momen Bahagia' },
+            { src: '/images/unsplash/1516035069371-29a1b244cc32.webp', caption: 'Detail Shot — Dekorasi' },
+            { src: '/images/unsplash/1501339847302-ac426a4a7cbb.webp', caption: 'Couple Portrait — Sunset' },
+        ],
+    },
+    {
+        title: 'BOOTCAMP',
+        label: 'Event Documentation',
+        image: '/images/unsplash/1492691527719-9d1e07e534b4.webp',
+        description: 'Dokumentasi event bootcamp & pelatihan intensif, mengabadikan energi dan semangat peserta.',
+        photos: [
+            { src: '/images/unsplash/1492691527719-9d1e07e534b4.webp', caption: 'Opening Session — Keynote Speaker' },
+            { src: '/images/unsplash/1540575467063-178a50c2df87.webp', caption: 'Workshop Activity — Group Session' },
+            { src: '/images/unsplash/1563986768609-322da13575f3.webp', caption: 'Networking — Sesi Diskusi' },
+            { src: '/images/unsplash/1542744173-8e7e53415bb0.webp', caption: 'Presentation — Stage Moment' },
+        ],
+    },
+    {
+        title: 'PELATIHAN',
+        label: 'Training Event Coverage',
+        image: '/images/unsplash/1540575467063-178a50c2df87.webp',
+        description: 'Coverage pelatihan & seminar resmi instansi pemerintah dan swasta secara profesional.',
+        photos: [
+            { src: '/images/unsplash/1540575467063-178a50c2df87.webp', caption: 'Pelatihan Nasional — Sesi Pleno' },
+            { src: '/images/unsplash/1492691527719-9d1e07e534b4.webp', caption: 'Praktik Lapangan — Kelompok' },
+            { src: '/images/unsplash/1563986768609-322da13575f3.webp', caption: 'Sertifikasi — Penyerahan Plakat' },
+            { src: '/images/unsplash/1442512595331-e89e73853f31.webp', caption: 'Dokumentasi Resmi — Indoor' },
+        ],
+    },
+    {
+        title: 'Video Profil',
+        label: 'Video Production',
+        image: '/images/unsplash/1554048612-b6a482bc67e5.webp',
+        description: 'Produksi video profil instansi & perusahaan dengan konsep sinematik dan narasi yang kuat.',
+        photos: [
+            { src: '/images/unsplash/1554048612-b6a482bc67e5.webp', caption: 'Behind The Scene — Produksi' },
+            { src: '/images/unsplash/1505236858219-8359eb29e329.webp', caption: 'Corporate Footage — Aerial View' },
+            { src: '/images/unsplash/1586717791821-3f44a563fa4c.webp', caption: 'Interview Setup — Studio' },
+            { src: '/images/unsplash/1558618666-fcd25c85cd64.webp', caption: 'Color Grading — Post Production' },
+        ],
+    },
+    {
+        title: 'Video AKPER',
+        label: 'Corporate Video',
+        image: '/images/unsplash/1505236858219-8359eb29e329.webp',
+        description: 'Video dokumentasi akademi keperawatan — menampilkan kegiatan kampus, wisuda, dan praktik klinik.',
+        photos: [
+            { src: '/images/unsplash/1505236858219-8359eb29e329.webp', caption: 'Campus Life — Kegiatan Belajar' },
+            { src: '/images/unsplash/1554048612-b6a482bc67e5.webp', caption: 'Praktik Klinik — Laboratorium' },
+            { src: '/images/unsplash/1558618666-fcd25c85cd64.webp', caption: 'Wisuda — Momen Terbaik' },
+        ],
+    },
+    {
+        title: 'EVENT',
+        label: 'Event Aftermovie',
+        image: '/images/unsplash/1558618666-fcd25c85cd64.webp',
+        description: 'Aftermovie & highlight reel event berskala besar — konser, festival, dan pameran budaya.',
+        photos: [
+            { src: '/images/unsplash/1558618666-fcd25c85cd64.webp', caption: 'Festival Stage — Night Show' },
+            { src: '/images/unsplash/1492691527719-9d1e07e534b4.webp', caption: 'Crowd Energy — Live Event' },
+            { src: '/images/unsplash/1460925895917-afdab827c52f.webp', caption: 'Performance — Drone Shot' },
+            { src: '/images/unsplash/1561070791-2526d30994b5.webp', caption: 'After Party — Highlight' },
+            { src: '/images/unsplash/1586717791821-3f44a563fa4c.webp', caption: 'Exhibition — Gallery Walk' },
+        ],
+    },
 ];
 
 const SOCIAL_IG_ITEMS = [
@@ -855,42 +935,203 @@ function ProjectCard({ project, isGov, onOpen }) {
 }
 
 // ─── Image Card for non-web categories ────────────────────────────────────────
-function ImageCard({ item, accent = '#10b981' }) {
-    // Determine the fitting strategy
+function ImageCard({ item, accent = '#10b981', onOpen }) {
     const isPortrait = item.aspect === '9/16';
     const isContain = item.contain || false;
+    const isMedia = !!item.photos;
 
     let bgClass = "bg-cover bg-top";
-    if (isContain) bgClass = "bg-contain bg-no-repeat bg-center"; // For Graphic Designs
-    else if (isPortrait) bgClass = "bg-cover bg-top"; // We reverted this to cover earlier, but let's keep cover for portraits so they fill
+    if (isContain) bgClass = "bg-contain bg-no-repeat bg-center";
+    else if (isPortrait) bgClass = "bg-cover bg-top";
 
     let containerBg = item.bg === 'white' ? 'bg-white' : 'bg-black';
 
+    const handleClick = (e) => {
+        if (isMedia && onOpen) {
+            e.preventDefault();
+            onOpen(item);
+        }
+    };
+
+    // For contain (design/logo) items: no dark overlay, just a subtle hover effect
+    const overlayClass = isContain
+        ? "absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300"
+        : "absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-70 group-hover:opacity-90 transition-opacity duration-500";
+
+    const labelColor = isContain ? "text-black/50" : "text-white/60";
+    const titleColor = isContain ? "text-black font-semibold" : "text-white font-bold";
+    const btnBg = isContain ? "bg-black/10 text-black" : "bg-white/20 text-white";
+
     return (
-        <a href={item.url || '#'} target="_blank" rel="noreferrer"
+        <a
+            href={isMedia ? '#' : (item.url || '#')}
+            target={isMedia ? undefined : "_blank"}
+            rel={isMedia ? undefined : "noreferrer"}
+            onClick={handleClick}
             className={cn("group relative overflow-hidden rounded-2xl cursor-pointer transition-all duration-500 hover:scale-[1.02] shadow-sm hover:shadow-xl block", containerBg)}
-            style={{ aspectRatio: item.aspect || '4/3' }}>
-
+            style={{ aspectRatio: item.aspect || '4/3' }}
+        >
             {/* Background Image */}
-            <div className={cn("absolute inset-0 transition-transform duration-700 group-hover:scale-105", bgClass)}
-                style={{ backgroundImage: `url('${item.image}')` }} />
+            <div
+                className={cn("absolute inset-0 transition-transform duration-700 group-hover:scale-105", bgClass)}
+                style={{ backgroundImage: `url('${item.image}')` }}
+            />
 
-
-            {/* Gradient Overlay */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-70 group-hover:opacity-90 transition-opacity duration-500" />
+            {/* Overlay — dark for media/social, subtle for design */}
+            <div className={overlayClass} />
 
             {/* Content */}
-            <div className="absolute inset-0 p-5 flex flex-col justify-end">
-                <div className="flex items-end justify-between gap-4">
-                    <h3 className="font-display text-white text-sm sm:text-base lg:text-lg font-bold leading-snug">{item.title}</h3>
-
-                    {/* View Button */}
-                    <div className="shrink-0 w-8 h-8 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+            <div className="absolute inset-0 p-4 flex flex-col justify-end">
+                <div className="flex items-end justify-between gap-3">
+                    <div>
+                        <p className={cn("font-body text-xs mb-0.5 uppercase tracking-widest", labelColor)}>{item.label}</p>
+                        <h3 className={cn("font-display text-sm sm:text-base leading-snug", titleColor)}>{item.title}</h3>
                     </div>
+                    {/* View Button */}
+                    {isMedia ? (
+                        <div className={cn("shrink-0 flex items-center gap-1.5 backdrop-blur-md px-3 py-1.5 rounded-full text-xs font-bold opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300", btnBg)}>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+                            {item.photos?.length} Foto
+                        </div>
+                    ) : (
+                        <div className={cn("shrink-0 w-8 h-8 rounded-full backdrop-blur-md flex items-center justify-center opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300", btnBg)}>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                        </div>
+                    )}
                 </div>
             </div>
         </a>
+    );
+}
+
+// ─── Media Gallery Modal ───────────────────────────────────────────────────────
+function MediaGalleryModal({ item, onClose }) {
+    const photos = item.photos ?? [];
+    const [active, setActive] = useState(0);
+    const [zoomed, setZoomed] = useState(false);
+
+    const prev = useCallback(() => setActive(i => (i - 1 + photos.length) % photos.length), [photos.length]);
+    const next = useCallback(() => setActive(i => (i + 1) % photos.length), [photos.length]);
+
+    useEffect(() => {
+        const handler = (e) => {
+            if (e.key === 'Escape') { if (zoomed) setZoomed(false); else onClose(); }
+            if (e.key === 'ArrowLeft') prev();
+            if (e.key === 'ArrowRight') next();
+        };
+        window.addEventListener('keydown', handler);
+        document.body.style.overflow = 'hidden';
+        return () => { window.removeEventListener('keydown', handler); document.body.style.overflow = ''; };
+    }, [onClose, prev, next, zoomed]);
+
+    return (
+        <div className="fixed inset-0 z-[400] flex items-center justify-center" onClick={onClose}>
+            {/* Backdrop */}
+            <div className="absolute inset-0 bg-black/95 backdrop-blur-xl" />
+
+            {/* Modal */}
+            <div
+                onClick={e => e.stopPropagation()}
+                className="relative z-10 w-full max-w-5xl mx-4 flex flex-col max-h-[95vh]"
+            >
+                {/* Header */}
+                <div className="flex items-center justify-between mb-4 px-1">
+                    <div>
+                        <span className="font-body text-white/40 text-xs uppercase tracking-[0.2em]">{item.label}</span>
+                        <h2 className="font-display text-2xl font-bold text-white mt-0.5">{item.title}</h2>
+                        {item.description && (
+                            <p className="font-body text-white/50 text-sm mt-1 max-w-lg">{item.description}</p>
+                        )}
+                    </div>
+                    <div className="flex items-center gap-3 flex-shrink-0">
+                        <span className="font-mono text-white/30 text-sm">{active + 1} / {photos.length}</span>
+                        <button
+                            onClick={onClose}
+                            aria-label="Tutup galeri"
+                            className="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-white transition-colors"
+                        >
+                            <IconClose />
+                        </button>
+                    </div>
+                </div>
+
+                {/* Main Image */}
+                <div className="relative rounded-2xl overflow-hidden bg-black/40 flex-1 min-h-0" style={{ maxHeight: '60vh' }}>
+                    <img
+                        key={active}
+                        src={photos[active]?.src}
+                        alt={photos[active]?.caption}
+                        className="w-full h-full object-contain"
+                        style={{ animation: 'fadeIn 0.3s ease' }}
+                        onClick={() => setZoomed(true)}
+                    />
+
+                    {/* Caption bar */}
+                    <div className="absolute bottom-0 left-0 right-0 px-6 py-4 bg-gradient-to-t from-black/80 to-transparent">
+                        <p className="font-body text-white/80 text-sm">{photos[active]?.caption}</p>
+                    </div>
+
+                    {/* Nav arrows */}
+                    {photos.length > 1 && (
+                        <>
+                            <button
+                                onClick={prev}
+                                aria-label="Foto sebelumnya"
+                                className="absolute left-3 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-black/50 hover:bg-black/80 backdrop-blur-sm flex items-center justify-center text-white transition-all hover:scale-110"
+                            >
+                                <IconChevronLeft />
+                            </button>
+                            <button
+                                onClick={next}
+                                aria-label="Foto berikutnya"
+                                className="absolute right-3 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-black/50 hover:bg-black/80 backdrop-blur-sm flex items-center justify-center text-white transition-all hover:scale-110"
+                            >
+                                <IconChevronRight />
+                            </button>
+                        </>
+                    )}
+                </div>
+
+                {/* Thumbnail Strip */}
+                {photos.length > 1 && (
+                    <div className="flex gap-2.5 mt-4 overflow-x-auto pb-1 px-1">
+                        {photos.map((p, i) => (
+                            <button
+                                key={i}
+                                onClick={() => setActive(i)}
+                                aria-label={`Foto ${i + 1}`}
+                                className={cn(
+                                    'relative flex-shrink-0 rounded-xl overflow-hidden transition-all duration-200 border-2',
+                                    i === active
+                                        ? 'border-[#f59e0b] scale-105 shadow-lg shadow-[#f59e0b]/30'
+                                        : 'border-white/10 opacity-50 hover:opacity-80 hover:border-white/30'
+                                )}
+                                style={{ width: 72, height: 50 }}
+                            >
+                                <img src={p.src} alt={`thumb ${i + 1}`} className="w-full h-full object-cover" loading="lazy" />
+                            </button>
+                        ))}
+                    </div>
+                )}
+            </div>
+
+            {/* Zoom overlay */}
+            {zoomed && (
+                <div
+                    className="absolute inset-0 z-20 flex items-center justify-center bg-black/98 cursor-zoom-out"
+                    onClick={() => setZoomed(false)}
+                >
+                    <img
+                        src={photos[active]?.src}
+                        alt={photos[active]?.caption}
+                        className="max-w-full max-h-full object-contain"
+                        style={{ animation: 'fadeIn 0.2s ease' }}
+                    />
+                </div>
+            )}
+
+            <style>{`@keyframes fadeIn { from { opacity:0; transform:scale(0.98); } to { opacity:1; transform:scale(1); } }`}</style>
+        </div>
     );
 }
 
@@ -898,6 +1139,7 @@ function ImageCard({ item, accent = '#10b981' }) {
 export default function Portfolio() {
     const [expandedId, setExpandedId] = useState('web');
     const [modal, setModal] = useState(null);
+    const [mediaModal, setMediaModal] = useState(null);
     const [webSubTab, setWebSubTab] = useState('gov');
     const [socialSubTab, setSocialSubTab] = useState('ig');
     const [designSubTab, setDesignSubTab] = useState('logo');
@@ -952,6 +1194,7 @@ export default function Portfolio() {
             />
 
             {modal && <ProjectModal project={modal.project} isGov={modal.isGov} onClose={() => setModal(null)} />}
+            {mediaModal && <MediaGalleryModal item={mediaModal} onClose={() => setMediaModal(null)} />}
 
             {/* ── FULL PAGE WRAPPER ── */}
             <div className="relative min-h-screen bg-[#fafafa]">
@@ -1234,7 +1477,12 @@ export default function Portfolio() {
                                         expandedId === 'media' ? MEDIA_ITEMS :
                                             (socialSubTab === 'ig' ? SOCIAL_IG_ITEMS : SOCIAL_YT_ITEMS)
                                     ).map((item, i) => (
-                                        <ImageCard key={item.id ?? item.title ?? i} item={item} accent={currentItem?.accent} />
+                                        <ImageCard
+                                            key={item.id ?? item.title ?? i}
+                                            item={item}
+                                            accent={currentItem?.accent}
+                                            onOpen={expandedId === 'media' ? setMediaModal : undefined}
+                                        />
                                     ))}
                                 </div>
                             )}

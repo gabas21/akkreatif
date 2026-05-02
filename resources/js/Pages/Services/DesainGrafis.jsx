@@ -233,17 +233,17 @@ export default function DesainGrafis() {
                 bg="bg-white"
                 previews={[
                     {
-                        image: '/images/unsplash/1629424606674-67dce8a49af8.jpg',
+                        image: '/images/unsplash/1629424606674-67dce8a49af8.webp',
                         label: 'Brand Identity',
                         title: 'Rebranding Kopi Kenangan',
                     },
                     {
-                        image: '/images/unsplash/1561070791-2526d30994b5.jpg',
+                        image: '/images/unsplash/1561070791-2526d30994b5.webp',
                         label: 'Packaging Design',
                         title: 'Kemasan Produk Lokal Kalimantan',
                     },
                     {
-                        image: '/images/unsplash/1586717791821-3f44a563fa4c.jpg',
+                        image: '/images/unsplash/1586717791821-3f44a563fa4c.webp',
                         label: 'UI/UX Design',
                         title: 'Dashboard Analytics UMKM',
                     },

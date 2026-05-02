@@ -17,20 +17,20 @@ import {
 } from '@tabler/icons-react';
 
 const row1_base = [
-    { name: "UPTD PPRD Samarinda", logo: "/images/clients/transparent_uptdsamarinda.png", hideText: true },
-    { name: "Biro PBJ Kaltim", logo: "/images/clients/transparent_biropbj.png", hideText: true },
-    { name: "Kemendikbud", logo: "/images/clients/transparent_kemendikbud.png", hideText: true },
-    { name: "DPD RI", logo: "/images/clients/transparent_dpdri.png", hideText: true },
-    { name: "DP3A Kaltim", logo: "/images/clients/logo-dp3a-kaltim.png", hideText: true },
+    { name: "UPTD PPRD Samarinda", logo: "/images/clients/transparent_uptdsamarinda.webp", hideText: true },
+    { name: "Biro PBJ Kaltim", logo: "/images/clients/transparent_biropbj.webp", hideText: true },
+    { name: "Kemendikbud", logo: "/images/clients/transparent_kemendikbud.webp", hideText: true },
+    { name: "DPD RI", logo: "/images/clients/transparent_dpdri.webp", hideText: true },
+    { name: "DP3A Kaltim", logo: "/images/clients/logo-dp3a-kaltim.webp", hideText: true },
     { name: "MGRM", logo: "/images/clients/mgrm.webp", hideText: true, darkCard: true },
 ];
 
 const row2_base = [
-    { name: "Pemkot Bogor", logo: "/images/clients/transparent_pemkotbogor.png", hideText: true },
-    { name: "BPOM", logo: "/images/clients/transparent_bpom.png", hideText: true },
-    { name: "Pamjaya Jakarta", logo: "/images/clients/transparent_pam-jaya-logo.png", hideText: true },
-    { name: "Badan Informasi Geospasial", logo: "/images/clients/transparent_geospasial.png", hideText: true },
-    { name: "PT Bayan Resources", logo: "/images/clients/bayan.png", hideText: true, darkCard: true },
+    { name: "Pemkot Bogor", logo: "/images/clients/transparent_pemkotbogor.webp", hideText: true },
+    { name: "BPOM", logo: "/images/clients/transparent_bpom.webp", hideText: true },
+    { name: "Pamjaya Jakarta", logo: "/images/clients/transparent_pam-jaya-logo.webp", hideText: true },
+    { name: "Badan Informasi Geospasial", logo: "/images/clients/transparent_geospasial.webp", hideText: true },
+    { name: "PT Bayan Resources", logo: "/images/clients/bayan.webp", hideText: true, darkCard: true },
 ];
 
 const row1 = [...row1_base, ...row1_base, ...row1_base, ...row1_base];
@@ -41,7 +41,10 @@ const ClientCard = ({ client }) => (
         <img
             src={client.logo}
             alt={client.name}
+            width="200"
+            height="80"
             loading="lazy"
+            decoding="async"
             className="w-full h-full object-contain"
         />
     </div>

@@ -271,17 +271,17 @@ export default function SocialMediaManagement() {
                 bg="bg-[#fafafa]"
                 previews={[
                     {
-                        image: '/images/unsplash/social-media-icons.jpg',
+                        image: '/images/unsplash/social-media-icons.webp',
                         label: 'Instagram Campaign',
                         title: 'Campaign #LokalBeraksi',
                     },
                     {
-                        image: '/images/unsplash/1563986768609-322da13575f3.jpg',
+                        image: '/images/unsplash/1563986768609-322da13575f3.webp',
                         label: 'Content Creation',
                         title: 'Feed Branding UMKM Lokal',
                     },
                     {
-                        image: '/images/unsplash/1562577309-4932fdd64cd1.jpg',
+                        image: '/images/unsplash/1562577309-4932fdd64cd1.webp',
                         label: 'Ads Campaign',
                         title: 'Meta Ads — ROAS 4.2x',
                     },

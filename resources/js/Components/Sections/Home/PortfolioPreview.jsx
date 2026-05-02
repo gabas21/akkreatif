@@ -6,22 +6,22 @@ const projects = [
     {
         title: 'Inspektorat Kabupaten Mahakam Ulu',
         category: 'Web Development',
-        img: '/images/unsplash/1486312338219-ce68d2c6f44d.jpg'
+        img: '/images/unsplash/1486312338219-ce68d2c6f44d.webp'
     },
     {
         title: 'Festival Mahakam 2024',
         category: 'Event Organizer & Dokumentasi',
-        img: '/images/unsplash/1492691527719-9d1e07e534b4.jpg'
+        img: '/images/unsplash/1492691527719-9d1e07e534b4.webp'
     },
     {
         title: 'Branding & Identity — Instansi Kaltim',
         category: 'Desain Grafis',
-        img: '/images/unsplash/1626785774573-4b799315345d.jpg'
+        img: '/images/unsplash/1626785774573-4b799315345d.webp'
     },
     {
         title: 'Konten & Pertumbuhan Media Sosial',
         category: 'Social Media Management',
-        img: '/images/unsplash/social-media-icons.jpg'
+        img: '/images/unsplash/social-media-icons.webp'
     }
 ];
 
@@ -69,7 +69,10 @@ export default function PortfolioPreview() {
                                 <img 
                                     src={project.img} 
                                     alt={project.title}
+                                    width="800"
+                                    height="600"
                                     loading="lazy"
+                                    decoding="async"
                                     className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
                                 />
                                 {/* Overlay Gelap */}

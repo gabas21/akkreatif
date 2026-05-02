@@ -3,7 +3,7 @@ import { Head } from '@inertiajs/react';
 const SITE_URL = 'https://akkreatif.my.id';
 const SITE_NAME = 'AK Kreatif';
 const SITE_LOGO = `${SITE_URL}/images/brand/logo-ak.png`;
-const DEFAULT_OG_IMAGE = `${SITE_URL}/images/unsplash/1542744173-8e7e53415bb0.jpg`;
+const DEFAULT_OG_IMAGE = `${SITE_URL}/images/unsplash/1542744173-8e7e53415bb0.webp`;
 
 /**
  * SEOHead — Centralized SEO component for every page.

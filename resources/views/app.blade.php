@@ -11,6 +11,9 @@
         @endproduction
 
         <title inertia>{{ config('app.name', 'AK Kreatif') }}</title>
+        
+        <!-- Preload critical assets -->
+        <link rel="preload" as="image" href="/images/brand/logo-ak.webp" fetchpriority="high">
 
         <!-- Google Fonts: Space Grotesk + Plus Jakarta Sans -->
         <link rel="preconnect" href="https://fonts.googleapis.com">

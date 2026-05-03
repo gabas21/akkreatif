@@ -25,7 +25,7 @@ export default function VisiMisi() {
                 canonical="/about/visi-misi"
             />
             
-            <section className="bg-black pt-40 pb-32 min-h-screen relative overflow-hidden">
+            <section className="bg-black pt-28 md:pt-40 pb-20 md:pb-32 min-h-screen relative overflow-hidden">
                 <div className="absolute inset-0 pointer-events-none">
                     <Meteors number={15} minDuration={4} maxDuration={10} />
                 </div>
@@ -35,7 +35,7 @@ export default function VisiMisi() {
                 <div className="container-custom relative z-10">
                     <BlurFade delay={0.1} inView className="mb-16 text-center">
                         <span className="font-mono text-xs text-[#10b981] uppercase tracking-[0.3em] bg-[#10b981]/10 px-4 py-2 rounded-full border border-[#10b981]/20">Arah & Tujuan</span>
-                        <h1 className="font-display text-5xl md:text-7xl font-black text-white mt-8 leading-tight">
+                        <h1 className="font-display text-4xl sm:text-5xl md:text-7xl font-black text-white mt-6 sm:mt-8 leading-tight">
                             Manifesto <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#10b981] to-teal-400">Inovasi.</span>
                         </h1>
                         <p className="font-body text-zinc-400 text-lg mt-6 max-w-2xl mx-auto">
@@ -46,7 +46,7 @@ export default function VisiMisi() {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                         {/* Visi */}
                         <BlurFade delay={0.2} inView className="md:col-span-1 h-full">
-                            <div className="group relative h-full rounded-3xl bg-zinc-900/60 backdrop-blur-xl border border-white/10 p-8 overflow-hidden hover:border-[#10b981]/50 transition-colors duration-500">
+                            <div className="group relative h-full rounded-2xl sm:rounded-3xl bg-zinc-900/60 backdrop-blur-xl border border-white/10 p-5 sm:p-8 overflow-hidden hover:border-[#10b981]/50 transition-colors duration-500">
                                 <div className="absolute inset-0 bg-gradient-to-br from-[#10b981]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                                 
                                 <div className="relative z-10">
@@ -63,7 +63,7 @@ export default function VisiMisi() {
 
                         {/* Misi */}
                         <BlurFade delay={0.3} inView className="md:col-span-2 h-full">
-                            <div className="group relative h-full rounded-3xl bg-zinc-900/60 backdrop-blur-xl border border-white/10 p-8 overflow-hidden hover:border-[#10b981]/50 transition-colors duration-500">
+                            <div className="group relative h-full rounded-2xl sm:rounded-3xl bg-zinc-900/60 backdrop-blur-xl border border-white/10 p-5 sm:p-8 overflow-hidden hover:border-[#10b981]/50 transition-colors duration-500">
                                 <div className="absolute inset-0 bg-gradient-to-bl from-[#10b981]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                                 
                                 <div className="relative z-10 flex flex-col h-full">

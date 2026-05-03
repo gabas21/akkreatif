@@ -59,14 +59,14 @@ function CafeSection({ cafe, flipped }) {
     const [mapLoaded, setMapLoaded] = useState(false);
 
     return (
-        <section id={cafe.id} className="bg-[#0D0A08] py-24 md:py-36 border-t border-white/5">
-            <div className="max-w-7xl mx-auto px-6">
+        <section id={cafe.id} className="bg-[#0D0A08] py-16 md:py-24 lg:py-36 border-t border-white/5">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6">
 
                 {/* ── Top Label Row ── */}
                 <div
                     ref={ref}
                     className={cn(
-                        'flex items-center justify-between mb-16 transition-all duration-700',
+                        'flex flex-wrap items-start justify-between gap-4 mb-10 sm:mb-16 transition-all duration-700',
                         visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
                     )}
                 >
@@ -152,7 +152,7 @@ function CafeSection({ cafe, flipped }) {
                         flipped && 'lg:order-1'
                     )}>
                         {/* Story + Info Card */}
-                        <div className="rounded-3xl border border-white/8 bg-white/[0.03] p-8 md:p-10">
+                        <div className="rounded-2xl sm:rounded-3xl border border-white/8 bg-white/[0.03] p-5 sm:p-8 md:p-10">
                             <p className="font-body text-white/60 text-lg leading-relaxed mb-8">
                                 {cafe.story}
                             </p>
@@ -284,8 +284,8 @@ export default function UsahaMakanan() {
                 }
             >
                 {/* Device Cluster: Coffee Showcase */}
-                <div className="w-full flex justify-center items-center relative perspective-1000">
-                    <div className="relative w-[500px] h-[600px] flex items-center justify-center scale-[0.6] sm:scale-[0.75] md:scale-[0.9] lg:scale-[0.8] xl:scale-[0.9] origin-center -ml-10 lg:-ml-4 transition-transform duration-500">
+                <div className="w-full flex justify-center items-center relative perspective-1000 h-[320px] sm:h-[400px] md:h-[460px] overflow-hidden">
+                    <div className="relative w-[500px] h-[600px] flex items-center justify-center scale-[0.45] sm:scale-[0.6] md:scale-[0.75] lg:scale-[0.8] xl:scale-[0.9] origin-center -ml-10 lg:-ml-4 transition-transform duration-500">
                         
                         {/* LEFT IPHONE: KS Tubun */}
                         <div className="group absolute top-1/2 left-[30%] -translate-x-1/2 -translate-y-1/2 z-20 transition-all duration-500 hover:z-50 hover:-translate-y-[55%] pointer-events-auto">
@@ -355,10 +355,10 @@ export default function UsahaMakanan() {
             ))}
 
             {/* ════════════════ CTA ════════════════ */}
-            <section className="bg-[#0D0A08] py-28 border-t border-white/5">
-                <div className="max-w-3xl mx-auto px-6 text-center">
-                    <p className="text-[#C8A97E] text-xs font-mono uppercase tracking-[0.4em] mb-6">Kunjungi Kami Hari Ini</p>
-                    <h2 className="font-display text-4xl md:text-6xl font-black text-white leading-tight mb-6">
+            <section className="bg-[#0D0A08] py-16 sm:py-20 md:py-28 border-t border-white/5">
+                <div className="max-w-3xl mx-auto px-4 sm:px-6 text-center">
+                    <p className="text-[#C8A97E] text-xs font-mono uppercase tracking-[0.4em] mb-4 sm:mb-6">Kunjungi Kami Hari Ini</p>
+                    <h2 className="font-display text-3xl sm:text-4xl md:text-6xl font-black text-white leading-tight mb-4 sm:mb-6">
                         Segelas Kopi,<br />
                         <span style={{ color: '#C8A97E' }}>Sejuta Cerita.</span>
                     </h2>

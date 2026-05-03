@@ -25,8 +25,8 @@ export default function HeroSection() {
                 borderBottomRightRadius: '50% 5vw'
             }}
         >
-            {/* YouTube Background Video */}
-            <div className="absolute inset-0 w-full h-full overflow-hidden pointer-events-none opacity-40">
+            {/* YouTube Background Video — hidden on mobile to save bandwidth */}
+            <div className="absolute inset-0 w-full h-full overflow-hidden pointer-events-none opacity-40 hidden md:block">
                 <iframe
                     className="absolute top-1/2 left-1/2 w-[150vw] h-[150vh] -translate-x-1/2 -translate-y-1/2"
                     src={`https://www.youtube.com/embed/${YOUTUBE_BG_ID}?autoplay=1&mute=1&controls=0&loop=1&playlist=${YOUTUBE_BG_ID}&modestbranding=1&showinfo=0`}
@@ -95,8 +95,8 @@ export default function HeroSection() {
                     </div>
                     
                     {/* RIGHTSIDE: AnimeJS LogoMorph Widget */}
-                    <div className="flex justify-center lg:justify-end mt-12 lg:mt-0 w-full">
-                        <div className="w-full max-w-[420px]">
+                    <div className="flex justify-center lg:justify-end mt-8 lg:mt-0 w-full overflow-hidden">
+                        <div className="w-full max-w-[340px] sm:max-w-[420px]">
                             <LogoMorph />
                         </div>
                     </div>
@@ -110,7 +110,7 @@ export default function HeroSection() {
                     <div className="relative w-full max-w-5xl aspect-video bg-black shadow-2xl rounded-3xl overflow-hidden">
                         <button
                             onClick={() => setIsVideoOpen(false)}
-                            className="absolute -top-12 right-0 text-white hover:text-brand-green transition-colors"
+                            className="absolute top-3 right-3 sm:-top-12 sm:right-0 text-white hover:text-brand-green transition-colors z-10 bg-black/60 sm:bg-transparent rounded-full p-2 sm:p-0"
                         >
                             <span className="font-body text-sm tracking-widest uppercase flex items-center gap-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">

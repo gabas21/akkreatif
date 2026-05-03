@@ -30,7 +30,7 @@ export default function StrukturTim() {
             />
             
             {/* TIM KAMI */}
-            <section className="bg-zinc-950 pt-40 pb-20 relative overflow-hidden">
+            <section className="bg-zinc-950 pt-28 md:pt-40 pb-16 md:pb-20 relative overflow-hidden">
                 <div className="absolute inset-0 pointer-events-none">
                     <SparklesCore id="team-sparkles" particleDensity={20} particleColor="#ffffff" className="w-full h-full opacity-30" />
                 </div>
@@ -38,7 +38,7 @@ export default function StrukturTim() {
                 <div className="container-custom relative z-10">
                     <BlurFade delay={0.1} inView className="mb-16">
                         <span className="inline-block font-mono text-xs text-[#10b981] uppercase tracking-[0.3em] bg-[#10b981]/10 px-4 py-2 rounded-full border border-[#10b981]/20">Tim Kami</span>
-                        <h1 className="font-display text-5xl md:text-6xl font-black text-white mt-6 leading-tight">
+                        <h1 className="font-display text-4xl sm:text-5xl md:text-6xl font-black text-white mt-5 sm:mt-6 leading-tight">
                             Orang-Orang<br />di Balik Layar.
                         </h1>
                         <p className="font-body text-zinc-400 text-lg mt-4 max-w-lg">
@@ -74,13 +74,13 @@ export default function StrukturTim() {
             </section>
 
             {/* STRUKTUR ORGANISASI */}
-            <section className="bg-black py-24 border-t border-white/5 relative overflow-hidden">
+            <section className="bg-black py-16 md:py-24 border-t border-white/5 relative overflow-hidden">
                 <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-3xl h-[1px] bg-gradient-to-r from-transparent via-[#10b981]/50 to-transparent opacity-50" />
                 
                 <div className="container-custom">
                     <BlurFade delay={0.1} inView className="text-center mb-20">
                         <span className="inline-block font-mono text-xs text-[#10b981] uppercase tracking-[0.3em] bg-[#10b981]/10 px-4 py-2 rounded-full border border-[#10b981]/20">Struktur Organisasi</span>
-                        <h2 className="font-display text-4xl md:text-5xl font-black text-white mt-6">Satu Unit, Satu Tujuan.</h2>
+                        <h2 className="font-display text-3xl sm:text-4xl md:text-5xl font-black text-white mt-5 sm:mt-6">Satu Unit, Satu Tujuan.</h2>
                     </BlurFade>
 
                     <BlurFade delay={0.2} inView>

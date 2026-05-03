@@ -30,7 +30,7 @@ export default function ServiceHero({
     const [ref, visible] = useIntersection();
 
     return (
-        <section className="relative min-h-screen flex flex-col justify-end overflow-hidden bg-[#060809] pt-28 pb-0">
+        <section className="relative min-h-screen flex flex-col justify-end overflow-hidden bg-[#060809] pt-24 md:pt-28 pb-0">
             {/* ── Ambient radial glow ── */}
             <div
                 className="absolute inset-0 pointer-events-none"
@@ -63,7 +63,7 @@ export default function ServiceHero({
             <div className="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-t from-[#060809] to-transparent pointer-events-none z-10" />
 
             {/* ── Back link ── */}
-            <div className="absolute top-28 left-6 z-20">
+            <div className="absolute top-20 md:top-28 left-4 sm:left-6 z-20">
                 <Link
                     href={backHref}
                     className="inline-flex items-center gap-2 text-white/30 hover:text-white text-[10px] font-mono uppercase tracking-[0.3em] transition-colors duration-300"
@@ -76,8 +76,8 @@ export default function ServiceHero({
             </div>
 
             {/* ── Main content grid ── */}
-            <div className="max-w-7xl mx-auto px-6 w-full relative z-20">
-                <div className="grid lg:grid-cols-2 gap-12 xl:gap-20 items-end pb-20 md:pb-28">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 w-full relative z-20">
+                <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 xl:gap-20 items-end pb-16 sm:pb-20 md:pb-28">
 
                     {/* LEFT: Editorial text — bottom aligned */}
                     <div
@@ -112,7 +112,7 @@ export default function ServiceHero({
                         </h1>
 
                         {/* Description */}
-                        <p className="font-body text-white/45 text-lg leading-relaxed max-w-lg mb-6">
+                        <p className="font-body text-white/45 text-base sm:text-lg leading-relaxed max-w-lg mb-5 sm:mb-6">
                             {description}
                         </p>
 
@@ -120,10 +120,10 @@ export default function ServiceHero({
                         {extra}
                     </div>
 
-                    {/* RIGHT: Device mockup slot */}
+                    {/* RIGHT: Device mockup slot — overflow contained on mobile */}
                     <div
                         className={cn(
-                            'flex justify-center lg:justify-end relative transition-all duration-1000 delay-200',
+                            'flex justify-center lg:justify-end relative transition-all duration-1000 delay-200 overflow-hidden',
                             visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
                         )}
                     >

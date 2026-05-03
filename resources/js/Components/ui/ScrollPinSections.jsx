@@ -22,6 +22,9 @@ export default function ScrollPinSections({ children }) {
             scrollTriggers.forEach(st => st?.kill());
             scrollTriggers = [];
 
+            // Disable scroll pinning on mobile/tablet — viewport terlalu kecil
+            if (window.innerWidth < 1024) return;
+
             const wrapper = wrapperRef.current;
             if (!wrapper) return;
 

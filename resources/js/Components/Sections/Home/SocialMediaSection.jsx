@@ -24,7 +24,7 @@ export default function SocialMediaSection() {
                     )}
                 >
                     {/* Instagram Card Preview */}
-                    <div className="group relative overflow-hidden bg-white rounded-[2rem] p-8 md:p-10 border border-black/5 hover:border-[#10b981]/50 shadow-sm hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 flex flex-col h-full">
+                    <div className="group relative overflow-hidden bg-white rounded-[2rem] p-5 sm:p-8 md:p-10 border border-black/5 hover:border-[#10b981]/50 shadow-sm hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 flex flex-col h-full">
                         <div className="flex justify-between items-start mb-6">
                             <div className="flex items-center gap-4">
                                 <div className="w-14 h-14 rounded-full bg-gradient-to-tr from-[#fd5949] via-[#d6249f] to-[#285AEB] p-0.5">
@@ -43,7 +43,7 @@ export default function SocialMediaSection() {
                         </div>
                         
                         {/* 6-Grid IG Feed Mockup */}
-                        <div className="grid grid-cols-2 lg:grid-cols-3 gap-2 mb-6 relative">
+                        <div className="grid grid-cols-3 gap-1.5 sm:gap-2 mb-5 sm:mb-6 relative">
                             {/* Overlay clickable direct to IG */}
                             <a href="https://instagram.com/ak_kreatif" target="_blank" rel="noreferrer" className="absolute inset-0 z-10" aria-label="Visit Instagram Profile"></a>
                             
@@ -74,7 +74,7 @@ export default function SocialMediaSection() {
                     </div>
 
                     {/* YouTube Card Preview */}
-                    <div className="group relative overflow-hidden bg-white rounded-[2rem] p-8 md:p-10 border border-black/5 hover:border-[#FF0000]/50 shadow-sm hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 flex flex-col h-full">
+                    <div className="group relative overflow-hidden bg-white rounded-[2rem] p-5 sm:p-8 md:p-10 border border-black/5 hover:border-[#FF0000]/50 shadow-sm hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 flex flex-col h-full">
                         <div className="flex justify-between items-start mb-6">
                             <div className="flex items-center gap-4">
                                 <div className="w-14 h-14 rounded-full bg-[#FF0000]/10 flex items-center justify-center">

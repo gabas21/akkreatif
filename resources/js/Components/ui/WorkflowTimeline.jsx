@@ -37,7 +37,7 @@ export default function WorkflowTimeline({
     }, []);
 
     return (
-        <section className="py-24 md:py-32 bg-zinc-950 relative" ref={containerRef}>
+        <section className="py-16 sm:py-24 md:py-32 bg-zinc-950 relative" ref={containerRef}>
             {/* Background Effects */}
             <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff05_1px,transparent_1px),linear-gradient(to_bottom,#ffffff05_1px,transparent_1px)] bg-[size:24px_24px] pointer-events-none overflow-hidden" />
             <div 
@@ -46,7 +46,7 @@ export default function WorkflowTimeline({
             />
 
             <div className="container-custom relative z-10">
-                <div className="flex flex-col lg:flex-row gap-16 lg:gap-24 lg:items-start">
+                <div className="flex flex-col lg:flex-row gap-10 lg:gap-24 lg:items-start">
                     
                     {/* ── LEFT COLUMN: Sticky Header ── */}
                     <div className="lg:w-5/12 lg:self-stretch">
@@ -56,7 +56,7 @@ export default function WorkflowTimeline({
                                 <span className="font-mono text-xs font-bold text-white/80 uppercase tracking-widest">{subheading}</span>
                             </div>
                             
-                            <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-black text-white leading-[1.1] tracking-tight mb-6">
+                            <h2 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white leading-[1.1] tracking-tight mb-5 sm:mb-6">
                                 {heading}
                             </h2>
                             
@@ -135,7 +135,7 @@ function StepCard({ step, index, accentColor, isActive }) {
         <div 
             ref={ref}
             className={cn(
-                "relative pl-16 md:pl-24 transition-all duration-700",
+                "relative pl-14 sm:pl-16 md:pl-24 transition-all duration-700",
                 visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-16"
             )}
         >
@@ -157,7 +157,7 @@ function StepCard({ step, index, accentColor, isActive }) {
 
             {/* Card Content */}
             <div className={cn(
-                "group relative bg-zinc-900/40 backdrop-blur-xl border rounded-[2rem] p-6 md:p-8 transition-all duration-500 hover:bg-zinc-900/80 hover:-translate-y-1",
+                "group relative bg-zinc-900/40 backdrop-blur-xl border rounded-[1.5rem] sm:rounded-[2rem] p-5 sm:p-6 md:p-8 transition-all duration-500 hover:bg-zinc-900/80 hover:-translate-y-1",
                 isActive ? "border-white/10 shadow-xl" : "border-white/5 shadow-none"
             )}>
                 {/* Glow effect on hover inside card */}
@@ -173,11 +173,11 @@ function StepCard({ step, index, accentColor, isActive }) {
                     Fase {step.number || `0${index + 1}`}
                 </span>
                 
-                <h3 className="font-display text-2xl md:text-3xl font-bold text-white mb-4 leading-snug group-hover:text-white/90 transition-colors">
+                <h3 className="font-display text-xl sm:text-2xl md:text-3xl font-bold text-white mb-3 sm:mb-4 leading-snug group-hover:text-white/90 transition-colors">
                     {step.title}
                 </h3>
                 
-                <p className="font-body text-zinc-400 text-base md:text-lg leading-relaxed mb-8">
+                <p className="font-body text-zinc-400 text-sm sm:text-base md:text-lg leading-relaxed mb-6 sm:mb-8">
                     {step.desc}
                 </p>
 

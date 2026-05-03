@@ -1,19 +1,21 @@
+import React, { Suspense, lazy } from 'react';
 import MainLayout from '@/Layouts/MainLayout';
 import ScrollPinSections from '@/Components/ui/ScrollPinSections';
 import SEOHead from '@/Components/SEOHead';
 
-// Sections
+// Top sections (Load directly)
 import HeroSection from '@/Components/Sections/Home/HeroSection';
 import PenjelasanSection from '@/Components/Sections/Home/PenjelasanSection';
-import MengapaSection from '@/Components/Sections/Home/MengapaSection';
-import LayananSection from '@/Components/Sections/LayananSection';
-import SistemKerjaSection from '@/Components/Sections/Home/SistemKerjaSection';
 
-import PortfolioPreview from '@/Components/Sections/Home/PortfolioPreview';
-import ClientsSection from '@/Components/Sections/Home/ClientsSection';
-import TestimonialSection from '@/Components/Sections/Home/TestimonialSection';
-import SocialMediaSection from '@/Components/Sections/Home/SocialMediaSection';
-import CtaSection from '@/Components/Sections/Home/CtaSection';
+// Below-the-fold sections (Lazy load)
+const MengapaSection = lazy(() => import('@/Components/Sections/Home/MengapaSection'));
+const LayananSection = lazy(() => import('@/Components/Sections/LayananSection'));
+const SistemKerjaSection = lazy(() => import('@/Components/Sections/Home/SistemKerjaSection'));
+const PortfolioPreview = lazy(() => import('@/Components/Sections/Home/PortfolioPreview'));
+const ClientsSection = lazy(() => import('@/Components/Sections/Home/ClientsSection'));
+const TestimonialSection = lazy(() => import('@/Components/Sections/Home/TestimonialSection'));
+const SocialMediaSection = lazy(() => import('@/Components/Sections/Home/SocialMediaSection'));
+const CtaSection = lazy(() => import('@/Components/Sections/Home/CtaSection'));
 
 export default function Home() {
     return (
@@ -66,36 +68,38 @@ export default function Home() {
             </ScrollPinSections>
 
             {/* 3. Mengapa — alasan memilih AK Kreatif */}
-            <div className="relative z-10">
-                <MengapaSection />
-            </div>
+            <Suspense fallback={<div className="py-20 flex justify-center"><div className="w-8 h-8 border-4 border-brand-primary border-t-transparent rounded-full animate-spin"></div></div>}>
+                <div className="relative z-10">
+                    <MengapaSection />
+                </div>
 
-            {/* 4. Layanan — bento grid 5 layanan */}
-            <div className="relative z-10">
-                <LayananSection />
-            </div>
+                {/* 4. Layanan — bento grid 5 layanan */}
+                <div className="relative z-10">
+                    <LayananSection />
+                </div>
 
-            {/* 5. Sistem Kerja — step-by-step workflow */}
-            <div className="relative z-10">
-                <SistemKerjaSection />
-            </div>
+                {/* 5. Sistem Kerja — step-by-step workflow */}
+                <div className="relative z-10">
+                    <SistemKerjaSection />
+                </div>
 
-            {/* 6. Portfolio Preview — standalone (tidak perlu scroll-pin) */}
-            <div className="relative z-10">
-                <PortfolioPreview />
-            </div>
+                {/* 6. Portfolio Preview — standalone (tidak perlu scroll-pin) */}
+                <div className="relative z-10">
+                    <PortfolioPreview />
+                </div>
 
-            {/* 7–8. Klien & Testimonial — scroll pin group */}
-            <ScrollPinSections>
-                <ClientsSection />
-                <TestimonialSection />
-            </ScrollPinSections>
+                {/* 7–8. Klien & Testimonial — scroll pin group */}
+                <ScrollPinSections>
+                    <ClientsSection />
+                    <TestimonialSection />
+                </ScrollPinSections>
 
-            {/* 9–10. Social & CTA */}
-            <div className="relative z-10">
-                <SocialMediaSection />
-                <CtaSection />
-            </div>
+                {/* 9–10. Social & CTA */}
+                <div className="relative z-10">
+                    <SocialMediaSection />
+                    <CtaSection />
+                </div>
+            </Suspense>
 
         </MainLayout>
     );

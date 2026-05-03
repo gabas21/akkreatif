@@ -11,7 +11,7 @@ export default function PenjelasanSection() {
                 <div
                     ref={ref}
                     className={cn(
-                        "grid md:grid-cols-2 gap-16 items-center transition-all duration-1000",
+                        "grid md:grid-cols-2 gap-8 md:gap-16 items-center transition-all duration-1000",
                         isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
                     )}
                 >

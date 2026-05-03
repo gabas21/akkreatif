@@ -1207,10 +1207,10 @@ export default function Portfolio() {
                 </div>
 
                 {/* ── HERO SECTION ── */}
-                <div className="relative z-10 pt-28 pb-8 px-8 border-b border-black/5">
+                <div className="relative z-10 pt-24 sm:pt-28 pb-6 sm:pb-8 px-4 sm:px-8 border-b border-black/5">
 
                     {/* Orbit rings with AK logo at center */}
-                    <div className="absolute top-16 right-16 w-40 h-40 pointer-events-none">
+                    <div className="absolute top-16 right-16 w-40 h-40 pointer-events-none hidden md:block">
                         <div className="absolute inset-0 border border-[#10b981]/20 rounded-full animate-[spin_20s_linear_infinite]" />
                         <div className="absolute inset-3 border border-[#10b981]/15 rounded-full animate-[spin_15s_linear_infinite_reverse]" />
                         <div className="absolute inset-6 border border-black/5 rounded-full animate-[spin_25s_linear_infinite]" />
@@ -1229,23 +1229,23 @@ export default function Portfolio() {
                     <div className="absolute top-32 right-[35%] w-1 h-1 rounded-full bg-violet-500/30 animate-[pulse_4s_ease-in-out_infinite_0.5s]" />
                     <div className="absolute bottom-10 right-[55%] w-1 h-1 rounded-full bg-amber-500/30 animate-[pulse_3.5s_ease-in-out_infinite_1s]" />
 
-                    <div className="container-custom flex items-end justify-between gap-8">
-                        <div className="max-w-2xl">
+                    <div className="container-custom flex flex-col sm:flex-row items-start sm:items-end justify-between gap-4 sm:gap-8">
+                        <div className="max-w-2xl w-full">
                             {/* Badge with live dot */}
-                            <div className="flex items-center gap-3 mb-4">
-                                <span className="inline-flex items-center gap-2 font-mono text-sm font-bold uppercase tracking-[0.25em] text-[#10b981] border border-[#10b981]/25 bg-[#10b981]/8 px-4 py-2 rounded-full">
-                                    <img src="/images/logo-color.webp" alt="AK" className="w-5 h-5 object-contain" />
+                            <div className="flex items-center gap-2 sm:gap-3 mb-3 sm:mb-4 flex-wrap">
+                                <span className="inline-flex items-center gap-2 font-mono text-xs sm:text-sm font-bold uppercase tracking-[0.15em] sm:tracking-[0.25em] text-[#10b981] border border-[#10b981]/25 bg-[#10b981]/8 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full">
+                                    <img src="/images/logo-color.webp" alt="AK" className="w-4 h-4 sm:w-5 sm:h-5 object-contain" />
                                     Portfolio
                                 </span>
                                 {/* Dynamic active category indicator */}
-                                <span className="flex items-center gap-1.5 font-body text-sm text-black/35">
+                                <span className="flex items-center gap-1.5 font-body text-xs sm:text-sm text-black/35">
                                     <span className="w-1.5 h-1.5 rounded-full transition-colors duration-500" style={{ background: currentItem?.accent }} />
-                                    Menampilkan: <span className="text-black/60 font-medium">{currentItem?.label}</span>
+                                    <span className="text-black/60 font-medium">{currentItem?.label}</span>
                                 </span>
                             </div>
 
                             {/* Title with shimmer */}
-                            <h1 className="font-display text-4xl md:text-5xl font-black text-black leading-[1.15] tracking-tight">
+                            <h1 className="font-display text-3xl sm:text-4xl md:text-5xl font-black text-black leading-[1.15] tracking-tight">
                                 Kompilasi Karya &{' '}
                                 <span className="relative inline-block">
                                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#10b981] via-emerald-400 to-[#10b981] bg-[length:200%_auto] animate-[shimmer_3s_ease-in-out_infinite]">
@@ -1254,8 +1254,8 @@ export default function Portfolio() {
                                 </span>
                             </h1>
 
-                            <p className="font-body text-black/50 text-base mt-4 max-w-lg leading-relaxed">
-                                Pilih kategori di samping untuk menjelajahi karya terbaik kami —
+                            <p className="font-body text-black/50 text-sm sm:text-base mt-3 sm:mt-4 max-w-lg leading-relaxed">
+                                Pilih kategori untuk menjelajahi karya terbaik kami —
                                 dari <span className="text-black/70 font-medium">website pemerintah</span> hingga <span className="text-black/70 font-medium">konten viral</span>.
                             </p>
                         </div>
@@ -1292,14 +1292,14 @@ export default function Portfolio() {
                 `}} />
 
                 {/* ── DISCLOSURE + CONTENT ── */}
-                <div className="relative z-10 flex gap-8 min-h-[calc(100vh-240px)] pb-12 w-full">
+                <div className="relative z-10 flex flex-col lg:flex-row gap-0 lg:gap-8 min-h-[calc(100vh-240px)] pb-12 w-full">
 
                     {/* ══════════ LEFT PANEL: Nav + Disclosure ══════════ */}
-                    <div className="w-[400px] xl:w-[440px] flex-shrink-0 relative z-10 pl-6 sm:pl-8 lg:pl-12">
-                        <div className="sticky top-32 flex items-start gap-5 w-full pt-4">
+                    <div className="w-full lg:w-[400px] xl:w-[440px] flex-shrink-0 relative z-10 px-4 sm:px-6 lg:pl-12 lg:pr-0">
+                        <div className="lg:sticky lg:top-32 flex items-start gap-3 sm:gap-5 w-full pt-4">
 
                             {/* Nav arrows */}
-                            <div className="hidden sm:flex flex-col gap-3 pt-2 flex-shrink-0">
+                            <div className="hidden lg:flex flex-col gap-3 pt-2 flex-shrink-0">
                                 <button onClick={onPrevious} disabled={isPrevDisabled}
                                     className={cn("w-11 h-11 rounded-full flex items-center justify-center transition-all duration-300",
                                         isPrevDisabled ? "bg-black/5 text-black/15 cursor-not-allowed" : "bg-black/8 text-black/60 hover:bg-black/15"
@@ -1315,7 +1315,7 @@ export default function Portfolio() {
                             </div>
 
                             {/* Disclosure buttons */}
-                            <div className="flex-1 flex flex-col gap-y-3 min-w-0">
+                            <div className="flex-1 flex lg:flex-col flex-row gap-y-3 gap-x-2 min-w-0 overflow-x-auto pb-2 lg:pb-0 scrollbar-hide">
                                 {SHOWCASE_ITEMS.map((item) => {
                                     const isExpanded = expandedId === item.id;
                                     return (
@@ -1323,7 +1323,7 @@ export default function Portfolio() {
                                             <button
                                                 onClick={() => setExpandedId(item.id)}
                                                 className={cn(
-                                                    "w-full h-14 rounded-full flex items-center gap-3 px-5 text-left transition-all duration-400",
+                                                    "flex-shrink-0 lg:w-full h-11 lg:h-14 rounded-full flex items-center gap-2 lg:gap-3 px-4 lg:px-5 text-left transition-all duration-400 whitespace-nowrap",
                                                     isExpanded ? "bg-white shadow-md border border-black/8" : "bg-white/60 border border-black/5 hover:bg-white hover:shadow-sm"
                                                 )}
                                             >
@@ -1333,13 +1333,13 @@ export default function Portfolio() {
                                                 ) : (
                                                     <PlusIcon className="text-black/30" />
                                                 )}
-                                                <span className="font-body text-lg text-black font-medium">{item.label}</span>
-                                                <span className="ml-auto font-mono text-sm text-black/30 bg-black/5 px-2.5 py-0.5 rounded-full">{item.count}</span>
+                                                <span className="font-body text-sm lg:text-lg text-black font-medium">{item.label}</span>
+                                                <span className="ml-auto font-mono text-xs lg:text-sm text-black/30 bg-black/5 px-2 lg:px-2.5 py-0.5 rounded-full">{item.count}</span>
                                             </button>
 
                                             {/* Expanded description */}
                                             <div className={cn(
-                                                "overflow-hidden transition-all duration-[420ms]",
+                                                "overflow-hidden transition-all duration-[420ms] hidden lg:block",
                                                 isExpanded ? "max-h-[300px] opacity-100" : "max-h-0 opacity-0"
                                             )} style={{ transitionTimingFunction: isExpanded ? 'cubic-bezier(0.16, 1, 0.3, 1)' : 'cubic-bezier(0.87, 0, 0.13, 1)' }}>
                                                 <div className="mt-3 rounded-2xl bg-white p-6 shadow-md border border-black/5">
@@ -1423,7 +1423,7 @@ export default function Portfolio() {
                     {/* No divider needed - gap-8 handles spacing beautifully */}
 
                     {/* ══════════ RIGHT PANEL: Content Grid ══════════ */}
-                    <div className="flex-1 flex flex-col min-w-0 overflow-hidden pr-6 sm:pr-8 lg:pr-12">
+                    <div className="flex-1 flex flex-col min-w-0 overflow-hidden px-4 sm:px-6 lg:pl-0 lg:pr-12">
 
                         {/* Header */}
                         <div className="flex flex-col gap-3 mb-8 flex-shrink-0">
@@ -1452,7 +1452,7 @@ export default function Portfolio() {
                         {/* Grid */}
                         <div className="flex-1 pb-20 overflow-x-hidden">
                             {expandedId === 'web' ? (
-                                <div className="grid grid-cols-2 xl:grid-cols-3 gap-6">
+                                <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4 sm:gap-6">
                                     {(webSubTab === 'gov' ? filteredGov : NON_GOV_PROJECTS).map((p) => (
                                         <ProjectCard key={p.id} project={p}
                                             isGov={webSubTab === 'gov'}

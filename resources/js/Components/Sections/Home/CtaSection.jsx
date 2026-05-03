@@ -9,7 +9,7 @@ export default function CtaSection() {
     const [ref, isVisible] = useIntersection();
 
     return (
-        <section className="py-32 bg-primary relative overflow-hidden">
+        <section className="py-20 sm:py-32 bg-primary relative overflow-hidden">
             {/* Aceternity Background Beams */}
             <BackgroundBeams />
 
@@ -36,7 +36,7 @@ export default function CtaSection() {
                         />
                     </div>
 
-                    <p className="font-body text-xl text-gray-300 mb-12 leading-relaxed">
+                    <p className="font-body text-base sm:text-xl text-gray-300 mb-10 sm:mb-12 leading-relaxed">
                         Hubungi tim ahli kami hari ini dan mari kita diskusikan bagaimana kami bisa mentransformasi bisnis Anda di dunia digital.
                     </p>
 

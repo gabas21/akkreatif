@@ -769,8 +769,8 @@ export default function WebApplication() {
                 }
             >
                 {/* Device Cluster */}
-                <div className="w-full flex justify-center items-center relative perspective-1000">
-                    <div className="relative w-[1000px] h-[600px] flex items-center justify-center scale-[0.38] sm:scale-[0.48] md:scale-[0.56] lg:scale-[0.52] xl:scale-[0.62] origin-center">
+                <div className="w-full flex justify-center items-center relative perspective-1000 h-[280px] sm:h-[360px] md:h-[420px] lg:h-[500px] overflow-hidden">
+                    <div className="relative w-[1000px] h-[600px] flex items-center justify-center scale-[0.28] sm:scale-[0.38] md:scale-[0.48] lg:scale-[0.52] xl:scale-[0.62] origin-center">
                         {/* CENTER BACK: MacBook */}
                         <div className="group absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 transition-all duration-500 hover:z-50 hover:-translate-y-[55%] pointer-events-auto">
                             <MacbookPro className="scale-[1.15] shadow-[0_30px_60px_rgba(0,0,0,0.9)] group-hover:shadow-[0_40px_100px_rgba(16,185,129,0.3)] group-hover:scale-[1.2] cursor-pointer transition-all duration-500 ease-out origin-center">

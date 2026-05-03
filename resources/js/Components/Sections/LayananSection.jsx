@@ -118,25 +118,25 @@ export default function LayananSection() {
                 </div>
 
                 {/* Content Bottom */}
-                <div className="absolute bottom-0 left-0 p-6 md:p-8 w-full flex flex-col justify-end">
+                <div className="absolute bottom-0 left-0 p-4 md:p-6 lg:p-8 w-full flex flex-col justify-end">
                   {/* Icon Box */}
                   <div className={`rounded-xl bg-white/15 border border-white/20 backdrop-blur-md flex items-center justify-center mb-4 opacity-0 translate-y-[8px] group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-[600ms] ease-out ${service.id === 1 ? 'w-11 h-11 md:w-12 md:h-12' : 'w-10 h-10'}`}>
                     <Icon className={`text-white ${service.id === 1 ? 'w-5 h-5 md:w-6 md:h-6' : 'w-5 h-5'}`} />
                   </div>
 
                   {/* Tag & Title */}
-                  <div className="space-y-1.5">
+                  <div className="space-y-1">
                     <span className="text-[10px] uppercase tracking-[0.1em] text-[#6ee88a] font-medium block">
                       {service.tag}
                     </span>
-                    <h3 className={`font-semibold text-white ${service.id === 1 ? 'text-[20px] md:text-[22px]' : 'text-[17px]'}`}>
+                    <h3 className={`font-semibold text-white ${service.id === 1 ? 'text-[17px] md:text-[20px] lg:text-[22px]' : 'text-[15px] md:text-[17px]'}`}>
                       {service.title}
                     </h3>
                   </div>
 
                   {/* Description (Slide Reveal) */}
                   <div className={`max-h-0 opacity-0 overflow-hidden group-hover:opacity-100 transition-all duration-[600ms] ease-out ${service.id === 1 ? 'group-hover:max-h-[100px]' : 'group-hover:max-h-[80px]'}`}>
-                    <p className={`text-white/65 mt-3 leading-relaxed ${service.id === 1 ? 'text-[13.5px] md:text-[14px] max-w-lg' : 'text-[12.5px]'}`}>
+                    <p className={`text-white/65 mt-2 leading-relaxed ${service.id === 1 ? 'text-[12px] md:text-[13.5px] lg:text-[14px] max-w-lg' : 'text-[11px] md:text-[12.5px]'}`}>
                       {service.desc}
                     </p>
                   </div>

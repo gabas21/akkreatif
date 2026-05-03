@@ -8,7 +8,7 @@ export default function ServiceDeliverables({ packages, accentColor = "#10b981",
     const [ref, visible] = useIntersection();
 
     return (
-        <section className={cn("py-24 relative overflow-hidden bg-black", className)} ref={ref}>
+        <section className={cn("py-16 sm:py-24 relative overflow-hidden bg-black", className)} ref={ref}>
             {/* Background elements */}
             <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.1),rgba(255,255,255,0))]" />
             <div 
@@ -27,8 +27,8 @@ export default function ServiceDeliverables({ packages, accentColor = "#10b981",
                         </span>
                     </BlurFade>
                     <BlurFade delay={0.2} inView={visible}>
-                        <h2 className="font-display text-4xl md:text-5xl font-black text-white mb-6">
-                            Durasi & <span style={{ color: accentColor }}>Output Pekerjaan</span>
+                        <h2 className="font-display text-3xl sm:text-4xl md:text-5xl font-black text-white mb-4 sm:mb-6">
+                            Durasi &amp; <span style={{ color: accentColor }}>Output Pekerjaan</span>
                         </h2>
                     </BlurFade>
                     <BlurFade delay={0.3} inView={visible}>
@@ -38,10 +38,11 @@ export default function ServiceDeliverables({ packages, accentColor = "#10b981",
                     </BlurFade>
                 </div>
 
-                <div className={`grid grid-cols-1 md:grid-cols-${packages.length > 1 ? '2' : '1'} gap-8 max-w-[${packages.length > 1 ? '1000px' : '600px'}] mx-auto`}>
+                {/* Fix: avoid dynamic Tailwind classes which JIT won't purge */}
+                <div className={packages.length > 1 ? 'grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 max-w-[1000px] mx-auto' : 'grid grid-cols-1 gap-8 max-w-[600px] mx-auto'}>
                     {packages.map((pkg, idx) => (
                         <BlurFade key={idx} delay={0.4 + (idx * 0.1)} inView={visible} className="h-full">
-                            <div className="group relative h-full rounded-3xl bg-zinc-900/50 border border-white/10 p-8 hover:border-white/20 transition-all duration-500 overflow-hidden backdrop-blur-md">
+                            <div className="group relative h-full rounded-2xl sm:rounded-3xl bg-zinc-900/50 border border-white/10 p-5 sm:p-8 hover:border-white/20 transition-all duration-500 overflow-hidden backdrop-blur-md">
                                 {/* Hover Glow */}
                                 <div 
                                     className="absolute inset-0 opacity-0 group-hover:opacity-10 transition-opacity duration-500 pointer-events-none"

@@ -16,7 +16,7 @@ const NavCard = ({ href, icon, title, description, delay }) => {
                 {/* Glow behind card */}
                 <div className="absolute -inset-[1px] rounded-3xl bg-gradient-to-br from-[#10b981]/0 via-[#10b981]/0 to-[#10b981]/0 group-hover:from-[#10b981]/20 group-hover:via-emerald-400/20 group-hover:to-teal-300/20 opacity-0 group-hover:opacity-100 transition-all duration-500 blur-sm" />
                 
-                <div className="relative h-full flex flex-col justify-between p-8 rounded-3xl bg-zinc-900/80 backdrop-blur-xl border border-white/10 group-hover:border-[#10b981]/50 transition-colors duration-500 overflow-hidden">
+                <div className="relative h-full flex flex-col justify-between p-5 sm:p-8 rounded-2xl sm:rounded-3xl bg-zinc-900/80 backdrop-blur-xl border border-white/10 group-hover:border-[#10b981]/50 transition-colors duration-500 overflow-hidden">
                     {/* Background noise/gradient on hover */}
                     <div className="absolute inset-0 bg-gradient-to-br from-[#10b981]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                     
@@ -140,14 +140,14 @@ export default function AboutIndex() {
             ══════════════════════════════════════════════════ */}
             <section className="bg-zinc-950 border-y border-white/5 py-20">
                 <div className="container-custom">
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-12">
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8 md:gap-12">
                         {STATS.map((s, i) => (
                             <BlurFade key={i} delay={i * 0.1} inView className="text-center">
-                                <p className="font-display text-6xl md:text-7xl font-black text-white">
+                                <p className="font-display text-5xl sm:text-6xl md:text-7xl font-black text-white">
                                     <NumberTicker value={s.value} delay={i * 0.15} />
                                     <span className="text-[#10b981]">{s.suffix}</span>
                                 </p>
-                                <p className="font-body text-sm text-white/40 uppercase tracking-[0.2em] mt-3">{s.label}</p>
+                                <p className="font-body text-[10px] sm:text-sm text-white/40 uppercase tracking-[0.2em] mt-2 sm:mt-3">{s.label}</p>
                             </BlurFade>
                         ))}
                     </div>
@@ -157,7 +157,7 @@ export default function AboutIndex() {
             {/* ══════════════════════════════════════════════════
                 NAVIGATION BENTO GRID
             ══════════════════════════════════════════════════ */}
-            <section className="bg-black py-32 relative overflow-hidden">
+            <section className="bg-black py-20 md:py-32 relative overflow-hidden">
                 {/* Subtle background glow */}
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-[#10b981]/5 rounded-full blur-[120px] pointer-events-none" />
 

@@ -9,7 +9,6 @@
     },
     "dependencies": {
         "@tabler/icons-react": "^3.41.1",
-        "animejs": "^3.2.2",
         "axios": "^1.15.2",
         "clsx": "^2.1.1",
         "flubber": "^0.4.2",

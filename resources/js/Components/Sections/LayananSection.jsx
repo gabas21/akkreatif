@@ -11,7 +11,7 @@ const services = [
     desc: "Pengembangan web, profil instansi, dan mobile app berkualitas premium.",
     icon: Code2,
     href: "/services/web-application",
-    // GANTI: /assets/images/layanan-it.jpg
+    // Menggunakan gambar dari unsplash (format webp)
     image: "/images/unsplash/1555066931-4365d14bab8c.webp",
     className: "md:col-span-2 md:row-span-1 min-h-[260px]",
   },
@@ -22,7 +22,7 @@ const services = [
     desc: "Visual unik, logo, animasi, dan 3D yang menerjemahkan ide.",
     icon: Sparkles,
     href: "/services/desain-grafis",
-    // GANTI: /assets/images/layanan-desain.jpg
+    // Menggunakan gambar dari unsplash (format webp)
     image: "/images/unsplash/1626785774573-4b799315345d.webp",
     className: "md:col-span-1 md:row-span-2 min-h-[260px] md:min-h-full",
   },
@@ -33,7 +33,7 @@ const services = [
     desc: "Strategi konten dan pertumbuhan organik di semua platform digital.",
     icon: Share2,
     href: "/services/social-media",
-    // GANTI: /assets/images/layanan-sosmed.jpg
+    // Menggunakan gambar dari unsplash (format webp)
     image: "/images/unsplash/social-media-icons.webp",
     className: "md:col-span-1 md:row-span-1 min-h-[260px]",
   },
@@ -44,7 +44,7 @@ const services = [
     desc: "Mengabadikan momen terbaik lewat fotografi dan videografi.",
     icon: Camera,
     href: "/services/foto-video-event",
-    // GANTI: /assets/images/layanan-dokumentasi.jpg
+    // Menggunakan gambar dari unsplash (format webp)
     image: "/images/unsplash/1516035069371-29a1b244cc32.webp",
     className: "md:col-span-1 md:row-span-1 min-h-[260px]",
   },
@@ -55,7 +55,7 @@ const services = [
     desc: "Pengembangan usaha kuliner dengan konsep modern berkualitas.",
     icon: Utensils,
     href: "/services/usaha-makanan",
-    // GANTI: /assets/images/layanan-fb.jpg
+    // Menggunakan gambar dari unsplash (format webp)
     image: "/images/unsplash/1555396273-367ea4eb4db5.webp",
     className: "md:col-span-3 md:row-span-1 min-h-[200px]",
   }

@@ -535,10 +535,10 @@ const NON_GOV_PROJECTS = [
 const DESIGN_LOGO_ITEMS = [
     { title: 'AK Kreatif', label: 'Brand Identity', image: '/images/portfolio/desain/1.png', aspect: '1/1', contain: true, bg: 'white' },
     { title: 'AK Coffee', label: 'F&B Branding', image: '/images/portfolio/desain/2.png', aspect: '1/1', contain: true, bg: 'white' },
-    { title: 'Progress Kaltim', label: 'Media Layout', image: '/images/portfolio/desain/3.jpg', aspect: '1/1', contain: true, bg: 'white' },
+    { title: 'Progress Kaltim', label: 'Media Layout', image: '/images/portfolio/desain/3.webp', aspect: '1/1', contain: true, bg: 'white' },
     { title: 'KALTIMGO', label: 'Logo Design', image: '/images/portfolio/desain/4.png', aspect: '1/1', contain: true, bg: 'white' },
-    { title: 'Urban Folk News', label: 'News Portal UI', image: '/images/portfolio/desain/5.jpg', aspect: '1/1', contain: true, bg: 'white' },
-    { title: 'Istana Popok', label: 'Packaging & Print', image: '/images/portfolio/desain/6.jpg', aspect: '1/1', contain: true, bg: 'white' },
+    { title: 'Urban Folk News', label: 'News Portal UI', image: '/images/portfolio/desain/5.webp', aspect: '1/1', contain: true, bg: 'white' },
+    { title: 'Istana Popok', label: 'Packaging & Print', image: '/images/portfolio/desain/6.webp', aspect: '1/1', contain: true, bg: 'white' },
     { title: 'Clean Area', label: 'Corporate Identity', image: '/images/portfolio/desain/7.png', aspect: '1/1', contain: true, bg: 'white' },
     { title: 'Kedai Mas Yus', label: 'Restaurant Kit', image: '/images/portfolio/desain/8.png', aspect: '1/1', contain: true, bg: 'white' },
     { title: 'Villetta', label: 'Brand Identity', image: '/images/portfolio/desain/9.png', aspect: '1/1', contain: true, bg: 'white' },

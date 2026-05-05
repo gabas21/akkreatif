@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>404 — Halaman Tidak Ditemukan | AK Kreatif</title>
+    <link rel="icon" type="image/webp" href="/images/brand/logo-ak.webp">
     <style>
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
         body {

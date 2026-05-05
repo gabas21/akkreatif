@@ -8,9 +8,9 @@
     "theme_color": "#10b981",
     "icons": [
         {
-            "src": "/favicon.ico",
-            "sizes": "48x48",
-            "type": "image/x-icon"
+            "src": "/images/brand/logo-ak.webp",
+            "sizes": "any",
+            "type": "image/webp"
         },
         {
             "src": "/images/logo-color.webp",

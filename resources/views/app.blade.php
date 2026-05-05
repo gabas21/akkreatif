@@ -11,6 +11,11 @@
         @endproduction
 
         <title inertia>{{ config('app.name', 'AK Kreatif') }}</title>
+
+        <!-- Mencegah Browser Caching (Hard Cache Otomatis) -->
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+        <meta http-equiv="Pragma" content="no-cache">
+        <meta http-equiv="Expires" content="0">
         
         <!-- Preload critical assets -->
         <link rel="preload" as="image" href="/images/brand/logo-ak.webp" fetchpriority="high">

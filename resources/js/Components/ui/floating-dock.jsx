@@ -199,7 +199,11 @@ function IconContainer({ mouseX, title, icon, href, subItems }) {
         style={{ width, height }}
         className="relative flex aspect-square items-center justify-center rounded-full bg-black/5 hover:bg-[#10b981]/10 hover:shadow-inner transition-colors backdrop-blur-md group/icon"
       >
-        <a href={href} className="absolute inset-0 z-10 rounded-full" aria-label={title} />
+        {subItems ? (
+          <button type="button" className="absolute inset-0 z-10 rounded-full cursor-default" aria-label={title} />
+        ) : (
+          <a href={href} className="absolute inset-0 z-10 rounded-full" aria-label={title} />
+        )}
         <AnimatePresence>
           {hovered && (
             subItems ? (

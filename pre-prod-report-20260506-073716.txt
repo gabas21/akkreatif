@@ -1,0 +1,140 @@
+
+============================================================
+  PRE-PRODUCTION TEST REPORT
+  Project : akkreatif
+  Path    : C:\laragon\www\akkreatif
+  Tanggal : 05/06/2026 07:37:16
+============================================================
+
+--------------------------------------------
+  1. STRUKTUR PROJECT
+--------------------------------------------
+  OK   | File ada: artisan
+  OK   | File ada: composer.json
+  OK   | File ada: package.json
+  OK   | File ada: .env
+  OK   | File ada: vite.config.js
+  OK   | Folder ada: app\
+  OK   | Folder ada: bootstrap\
+  OK   | Folder ada: config\
+  OK   | Folder ada: database\
+  OK   | Folder ada: public\
+  OK   | Folder ada: resources\
+  OK   | Folder ada: routes\
+  OK   | Folder ada: storage\
+  OK   | Folder ada: vendor\
+  OK   | Folder ada: node_modules\
+  OK   | Entry point React ada: resources/js/app.jsx
+--------------------------------------------
+  2. KONFIGURASI .ENV
+--------------------------------------------
+  OK   | .env ditemukan
+  OK   | .env: APP_NAME = AK Kreatif
+  OK   | .env: APP_URL = http://localhost
+  OK   | .env: DB_HOST = 127.0.0.1
+  OK   | .env: DB_DATABASE = akkreatif
+  OK   | .env: DB_USERNAME = root
+  OK   | .env: APP_DEBUG=false (aman untuk production)
+  OK   | .env: APP_ENV=local
+  OK   | .env: APP_KEY sudah di-set
+  OK   | .env: Semua key dari .env.example sudah ada
+  OK   | .gitignore: .env sudah di-ignore
+
+--------------------------------------------
+  3. DATABASE & MIGRASI
+--------------------------------------------
+  FAIL | Koneksi database GAGAL -- cek DB_HOST, DB_DATABASE, DB_USERNAME, DB_PASSWORD di .env
+  INFO | Error:     ERROR  Migration table not found.   
+
+--------------------------------------------
+  4. PHP & COMPOSER
+--------------------------------------------
+  INFO | Versi PHP: 8.4.12
+  OK   | PHP 8.4.12 memenuhi syarat Laravel 10/11
+  OK   | PHP extension: pdo aktif
+  OK   | PHP extension: mbstring aktif
+  OK   | PHP extension: openssl aktif
+  OK   | PHP extension: tokenizer aktif
+  OK   | PHP extension: xml aktif
+  OK   | PHP extension: ctype aktif
+  OK   | PHP extension: json aktif
+  OK   | PHP extension: bcmath aktif
+  INFO | Menjalankan composer audit...
+  FAIL | SECURITY: Ada vulnerability di PHP dependency:
+
+--------------------------------------------
+  5. NODE.JS & NPM (REACT + VITE)
+--------------------------------------------
+  INFO | Versi Node.js: v24.11.1
+  OK   | Node.js v24.11.1 (Baik, Vite butuh Node 16+)
+  INFO | Menjalankan npm audit...
+  OK   | npm audit: Tidak ada vulnerability high/critical
+  INFO | Menjalankan npm run build (ini mungkin butuh 1-2 menit)...
+  OK   | npm run build: BERHASIL -- siap untuk production
+  INFO | Ukuran build: 1.19MB
+
+--------------------------------------------
+  6. LARAVEL APPLICATION
+--------------------------------------------
+  FAIL | Route list error -- ada masalah di file routes:
+  INFO |     GET|HEAD  {fallbackPlaceholder} ..................................................... errors.404 GǦ routes/web.php:38
+  OK   | Config cache: OK
+  OK   | Storage symlink sudah ada
+  OK   | Storage folder writable
+  INFO | Memeriksa syntax PHP di app\, routes\, config\...
+  OK   | Tidak ada syntax error di app\, routes\, config\
+
+--------------------------------------------
+  7. INERTIA.JS SPECIFIC
+--------------------------------------------
+  OK   | @inertiajs/react terpasang: ^2.0.0
+  OK   | inertiajs/inertia-laravel terpasang: ^2.0
+  OK   | Root view ada: resources/views/app.blade.php
+  OK   | Folder Pages ada: resources/js/Pages\
+
+--------------------------------------------
+  8. GIT STATUS
+--------------------------------------------
+  INFO | Branch aktif: main
+  WARN | Anda di branch 'main' langsung -- pertimbangkan pakai branch develop/staging
+  WARN | Ada 5 file belum di-commit:
+  INFO |    M composer.lock
+  INFO |    M resources/js/lib/MorphSVGPlugin.js
+  INFO |   ?? pre-prod-report-20260506-013859.txt
+  INFO |   ?? pre-prod-report-20260506-073716.txt
+  INFO |   ?? pre-prod-test.ps1
+  OK   | Semua commit sudah di-push
+  OK   | .env tidak ter-track oleh git (aman)
+  OK   | node_modules tidak ter-track oleh git
+
+--------------------------------------------
+  9. SECURITY & CODE QUALITY
+--------------------------------------------
+  INFO | Scanning hardcoded credentials...
+  OK   | Tidak ada indikasi hardcoded credentials
+  OK   | Tidak ada console.log yang tertinggal di React
+  OK   | Tidak ada TODO/FIXME yang tertinggal
+
+--------------------------------------------
+  10. UNIT TEST
+--------------------------------------------
+  INFO | Menjalankan PHP tests...
+  OK   | PHP tests semua PASSED:   [90mTests:[39m    [32;1m26 passed[39;22m[90m (62 assertions)[39m
+  INFO | Menjalankan React tests (vitest)...
+  OK   | React tests semua PASSED: [2m   Duration [22m 1.65s[2m (transform 96ms, setup 114ms, import 188ms, tests 194ms, environment 1.01s)[22m
+
+--------------------------------------------
+  11. RINGKASAN AKHIR
+--------------------------------------------
+
+  Total Checks:        60
+  OK (PASS):           55
+  FAIL:                3
+  WARNING:             2
+
+  SKOR KESIAPAN PRODUCTION: 92 / 100
+
+  [ORANGE] BELUM SIAP -- Ada masalah yang harus diperbaiki.
+
+  Laporan disimpan di: pre-prod-report-20260506-073716.txt
+============================================================
